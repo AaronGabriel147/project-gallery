@@ -55,8 +55,8 @@ body {
 }
 
 h1 {
-  color: rgb(48, 48, 48);
   font-weight: 100;
+  color: rgb(48, 48, 48);
   font-size: 2rem;
   word-spacing: 0.3rem;
   margin-top: 2rem;
@@ -103,7 +103,9 @@ p {
 }
 
 
-.card {
+
+/* old */
+/* .card {
   width: 70vw;
   max-height: 100vh;
   position: relative;
@@ -118,12 +120,37 @@ p {
     0 9px 6px -4px rgb(0 0 0 / 0.1);
   background: rgba(0, 0, 0, 0.082);
   backdrop-filter: saturate(10%) blur(7px);
+} */
+
+/* new */
+.card {
+  width: 80%;
+  height: 100%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  padding: 8px 8px 15px 8px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 15px -3px rgba(0, 0, 0, 0.3),
+    0 -2px 6px -4px rgb(0 0 0 / 0.1);
+  background: rgba(255, 255, 255, 0.13);
+  backdrop-filter: saturate(10%) blur(7px);
 }
 
-/* DOES NOTHING! */
+
+
+/* border: solid red; */
+/* min-width: 90%; */
+/* max-height: 90vh; */
 img {
-  border: solid red;
+  max-width: 100%;
+  height: auto;
 }
+
+
+
 
 
 
@@ -131,7 +158,6 @@ img {
   .card {
     width: 100%;
     padding: 6px 1px 1px 1px;
-
   }
 
 }

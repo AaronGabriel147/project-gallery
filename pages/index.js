@@ -1,23 +1,17 @@
 // import styles from '../styles/Home.module.css'
+import Image from 'next/future/image'
+// import Image from 'next/image'
+
 import Head from 'next/head'
-import Image from 'next/image'
 import imgfyc from '../public/fyc.png'
-import mobilelurker from '../public/mobilelurker.jpg'
 import shopifyhome from '../public/shopifyhome.png'
+import figmaStoics from '../public/figmaStoics.jpg'
+import reactCHALLENGES from '../public/reactCHALLENGES.jpg'
+
 import plantROUTES from '../public/plantROUTES.gif'
 
 
 
-{/* <div className="card">
-        <Image
-          src={mobilelurker}
-          alt='project'
-          placeholder='blur'
-        />
-        <p>Mobile view of 'Lurker', a React web app that filters out images from any subreddit and displays them. </p>
-      </div> */}
-
-{/* <h4>...</h4> */ }
 
 export default function Home() {
   return (
@@ -29,61 +23,73 @@ export default function Home() {
       </Head>
       <h1>Project Gallery</h1>
       {/* <div className="line"></div> */}
+      <div className="card">
+        <Image
+          src={shopifyhome}
+          alt='project'
+          placeholder='blur'
+          layout="responsive"
+          objectFit='contain'
+          quality="100"
+          priority
+        // blurDataURL ???????
+        />
+        <p>A React app built with the Hydrogen framework for Shopify.</p>
+      </div>
+
 
       {/* <div className="card">
         <Image
-          src={mobilelurker}
+          src={reactCHALLENGES}
           alt='project'
           placeholder='blur'
+          layout="responsive"
           objectFit='contain'
+          quality="100"
         />
-        <p>Mobile view of 'Lurker', a React web app that filters out images from any subreddit and displays them. </p>
+        <p>Add text.</p>
       </div> */}
 
-      <div className="card">
-        <div>
-          <Image
-            src={shopifyhome}
-            alt='project'
-            placeholder='blur'
-            layout="responsive"
-            objectFit='contain'
-            quality="100"
-            priority
-          />
-          <p>A React app built with the Hydrogen framework for Shopify.</p>
-        </div>
-      </div>
+
 
       <div className="card">
-        <div>
-          <Image
-            src={imgfyc}
-            alt='project'
-            placeholder='blur'
-            layout="responsive"
-            objectFit='contain'
-            quality="100"
-          />
-        </div>
+        <Image
+          src={imgfyc}
+          alt='project'
+          placeholder='blur'
+          layout="responsive"
+          objectFit='contain'
+          quality="100"
+        />
         <p>A simple RESTful API call which fetches data with a toggle to show or hide data.</p>
       </div>
 
 
+      {/* <div className="card">
+        <Image
+          src={figmaStoics}
+          alt='project'
+          placeholder='blur'
+          layout="responsive"
+          objectFit='contain'
+          quality="100"
+        />
+        <p>A simple RESTful API call which fetches data with a toggle to show or hide data.</p>
+      </div> */}
+
+
 
       <div className="card">
-        <div>
-          <Image
-            src={plantROUTES}
-            alt='project'
-            placeholder='blur'
-            layout="responsive"
-            objectFit='contain'
-            quality="100"
-            blurDataURL
-          />
-        </div>
-        <p>A simple RESTful API call which fetches data with a toggle to show or hide data.</p>
+        <Image
+          src={plantROUTES}
+          alt='project'
+          // placeholder='blur'
+          layout="responsive"
+          objectFit='contain'
+          quality="100"
+          blurDataURL
+        />
+        <p>add text*</p>
       </div>
 
 

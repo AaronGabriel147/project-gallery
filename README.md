@@ -1,3 +1,24 @@
+DELETE LATER: 
+
+
+import mobilelurker from '../public/mobilelurker.jpg'
+
+{/* <div className="card">
+<Image
+  src={mobilelurker}
+  alt='project'
+  placeholder='blur'
+  layout="responsive"
+  objectFit='contain'
+  quality="100"
+/>
+<p>Add text.</p>
+</div> */}
+
+{/* <h4>...</h4> */ }
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
