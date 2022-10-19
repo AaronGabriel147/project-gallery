@@ -1,6 +1,6 @@
 import Image from 'next/future/image';
 import imgfyc from '../public/fyc.png';
-// import shopifyhome from '../public/shopifyhome.png';
+import shopifyhome from '../public/shopifyhome.png';
 import figmaStoics from '../public/figmaStoics.jpg';
 import reactCHALLENGES from '../public/reactCHALLENGES.jpg';
 import arete from '../public/arete.jpg';
@@ -15,7 +15,8 @@ import banner from '../public/banner.jpg';
 import lurker2 from '../public/lurker2.jpg';
 import thestoics from '../public/thestoics.jpg';
 import plants from '../public/plants.jpg';
-import imageGallery from '../public/imageGallery.jpg';
+import todoFULL from '../public/todoFULL.jpg';
+
 
 
 
@@ -28,8 +29,12 @@ const imageCards = [
         image: plants
     },
     {
-        title: 'React Firebase storage database application that stores and displays images.',
-        image: imageGallery
+        title: 'A React web application built with the Hydrogen framework for Shopify.',
+        image: shopifyhome
+    },
+    {
+        title: 'This is a React Firebase full stack web app with a document database and CRUD operations.',
+        image: todoFULL
     },
     {
         title: 'A full stack React, Node, Express, PostGreSQL web application.',

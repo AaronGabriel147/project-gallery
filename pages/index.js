@@ -2,9 +2,10 @@ import Image from 'next/future/image'
 // import Image from 'next/image'
 import ImageCards from './ImageCards'
 import Head from 'next/head'
-import shopifyhome from '../public/shopifyhome.png'
-// import plantROUTES from '../public/plantROUTES.gif'
+import imgGal from '../public/imgGal.jpg';
 
+// import plantROUTES from '../public/plantROUTES.gif'
+{/* <p>A React web application built with the Hydrogen framework for Shopify.</p> */ }
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       {/* <div className="line"></div> */}
       <div className="card">
         <Image
-          src={shopifyhome}
+          src={imgGal}
           alt='project'
           placeholder='blur'
           layout="responsive"
@@ -27,7 +28,8 @@ export default function Home() {
           quality="100"
           priority
         />
-        <p>A React web application built with the Hydrogen framework for Shopify.</p>
+        <p>A React Firebase full stack storage application that stores and displays images in a document database.</p>
+
       </div>
 
       <ImageCards />
