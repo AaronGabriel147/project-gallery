@@ -91,8 +91,9 @@ h1 {
 
 
 p {
-  display: flex;
   /* border: solid #282c34; */
+  font-size: 1.1rem;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;

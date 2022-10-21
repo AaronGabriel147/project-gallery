@@ -33,7 +33,7 @@ const imageCards = [
         image: shopifyhome
     },
     {
-        title: 'This is a React Firebase full stack web app with a document database and CRUD operations.',
+        title: "This is a React Firebase full stack web app with a document database and CRUD operations. This web app is for saving any text, notes, todo's, etc. ",
         image: todoFULL
     },
     {
