@@ -31,18 +31,6 @@ const imageCards = [
         code: 'https://github.com/water-my-plantz',
     },
     {
-        title: 'A React web application built with the Hydrogen framework for Shopify.',
-        image: shopifyhome,
-        url: 'https://mechanical-keyboards-5414.myshopify.com/',
-        code: 'https://mechanical-keyboards-5414.myshopify.com/'
-    },
-    {
-        title: "This is a React Firebase full stack web app with a document database and CRUD operations. This web app is for saving any text, notes, todo's, etc. ",
-        image: todoFULL,
-        url: 'https://firebase-react-playground.vercel.app/',
-        code: 'https://github.com/AaronGabriel147/firebase-react-playground'
-    },
-    {
         title: 'A full stack React, Node, Express, PostGreSQL web application.',
         image: thestoics,
         url: 'https://thestoics.netlify.app/',
@@ -53,6 +41,18 @@ const imageCards = [
         image: lurker2,
         url: 'https://lurker-five.vercel.app/',
         code: 'https://github.com/AaronGabriel147/lurker'
+    },
+    {
+        title: "This is a React Firebase full stack web app with a document database and CRUD operations. This web app is for saving any text, notes, todo's, etc. ",
+        image: todoFULL,
+        url: 'https://firebase-react-playground.vercel.app/',
+        code: 'https://github.com/AaronGabriel147/firebase-react-playground'
+    },
+    {
+        title: 'A React web application built with the Hydrogen framework for Shopify.',
+        image: shopifyhome,
+        url: '',
+        code: ''
     },
     {
         title: 'A set of React challenges which includes, form validation, API fetching, and ascynchronous JavaScript.',
@@ -118,13 +118,13 @@ const imageCards = [
         title: 'A Figma presentation.',
         image: figmaStoics,
         url: 'https://www.figma.com/file/1ilZj7gIRRZy6RAZNFXHTp/Stoics?node-id=0%3A1',
-        code: 'https://www.figma.com/file/1ilZj7gIRRZy6RAZNFXHTp/Stoics?node-id=0%3A1'
+        code: ''
     },
     {
         title: 'Graphic art with Figma, a banner that I created for LinkedIn.',
         image: banner,
         url: 'https://www.figma.com/file/LFB2DAGxtT3v2KJSvqXsDx/Untitled',
-        code: 'https://www.figma.com/file/LFB2DAGxtT3v2KJSvqXsDx/Untitled'
+        code: ''
     },
 ];
 
@@ -147,9 +147,10 @@ export default function ImageCards() {
                     />
                     <p>{card.title}</p>
                     <div className="link-cont">
-                        <a id="link" href={card.url} target="blank">url</a>
-                        <a id="link" href={card.code} target="blank">code</a>
+                        {card.url && <a id="link" href={card.url} target="blank">url</a>}
+                        {card.code && <a id="link" href={card.code} target="blank">code</a>}
                     </div>
+
                 </div>
             ))}
         </>

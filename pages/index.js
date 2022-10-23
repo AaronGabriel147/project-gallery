@@ -5,7 +5,6 @@ import Head from 'next/head'
 import imgGal from '../public/imgGal.jpg';
 
 // import plantROUTES from '../public/plantROUTES.gif'
-{/* <p>A React web application built with the Hydrogen framework for Shopify.</p> */ }
 
 export default function Home() {
   return (
