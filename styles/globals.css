@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap');
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -152,6 +154,17 @@ img {
 
 
 
+#link {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: dodgerblue;
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+
+
+
 
 
 
@@ -161,4 +174,7 @@ img {
     padding: 6px 1px 1px 1px;
   }
 
+  .link-cont {
+    padding-bottom: 10px;
+  }
 }

@@ -14,6 +14,10 @@ export default function Home() {
         <title>Project Gallery</title>
         <meta name="description" content="A gallery of all of my web dev projects." />
         <link rel="icon" href="/1.png" />
+
+        {/* <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" /> */}
+
+
       </Head>
 
       <h1>Project Gallery</h1>
@@ -24,11 +28,15 @@ export default function Home() {
           alt='project'
           placeholder='blur'
           layout="responsive"
-          objectFit='contain'
+          // objectFit='contain'
           quality="100"
           priority
         />
         <p>A React Firebase full stack storage application that stores and displays images in a document database.</p>
+        <div className="link-cont">
+          <a id="link" href="https://firebase-storage-three.vercel.app/" target="blank">url</a>
+          <a id="link" href="https://github.com/AaronGabriel147/firebase-storage" target="blank">code</a>
+        </div>
 
       </div>
 
