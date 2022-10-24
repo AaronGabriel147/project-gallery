@@ -7,11 +7,11 @@ function NavBar() {
             <ul className="nav">
 
                 <Link href="/">
-                    <li>PROJECTS</li>
+                    <li>Projects</li>
                 </Link>
 
                 <Link href="/about">
-                    <li>ABOUT</li>
+                    <li>About</li>
                 </Link>
 
             </ul>

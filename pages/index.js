@@ -20,7 +20,7 @@ export default function Home() {
 
       <NavBar />
       <h1>Projects</h1>
-      <div className="line"></div>
+      {/* <div className="line"></div> */}
       <div className="card">
         <Image
           src={imgGal}
