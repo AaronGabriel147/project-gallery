@@ -38,7 +38,7 @@ export default function Home() {
       </div>
 
       <ImageCards />
-      <Footer />
+      {/* <Footer /> */}
 
       {/* 
       <div className="card">

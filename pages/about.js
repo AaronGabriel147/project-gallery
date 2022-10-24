@@ -63,7 +63,7 @@ export default function About() {
                 </a>
             </div>
 
-            <Footer />
+            {/* <Footer /> */}
         </div >
     )
 }
