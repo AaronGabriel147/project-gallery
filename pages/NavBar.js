@@ -4,10 +4,7 @@ import Link from 'next/link'
 function NavBar() {
     return (
         <div className="nav">
-
-            <h1>yolo</h1>
-
-            {/* <ul className="nav">
+            <ul className="nav">
 
                 <Link href="/">
                     <li>Projects</li>
@@ -16,7 +13,7 @@ function NavBar() {
                 <Link href="/about">
                     <li>About</li>
                 </Link>
-            </ul> */}
+            </ul>
         </div >
     )
 }
