@@ -31,7 +31,7 @@ export default function About() {
 
             {/* LinkedIn */}
             <div className="about-card">
-                <a href="https://www.linkedin.com/in/aaron-gabriel-web-dev/" target="_blank">
+                <a href="https://www.linkedin.com/in/aaron-gabriel-web-dev/" target="blank">
                     <Image
                         src={newBanner}
                         alt='project'
@@ -42,14 +42,14 @@ export default function About() {
                 </a>
 
                 <a href="https://www.linkedin.com/in/aaron-gabriel-web-dev/"
-                    target="_blank">
+                    target="blank">
                     <p id="link">LinkedIn</p>
                 </a>
             </div>
 
             {/* GitHub */}
             <div className="about-card">
-                <a href="https://github.com/AaronGabriel147" target="_blank">
+                <a href="https://github.com/AaronGabriel147" target="blank">
                     <Image
                         src={newGithub}
                         alt='project'
@@ -58,7 +58,7 @@ export default function About() {
                         quality="100"
                     />
                 </a>
-                <a href="https://github.com/AaronGabriel147" target="_blank">
+                <a href="https://github.com/AaronGabriel147" target="blank">
                     <p id="link">GitHub</p>
                 </a>
             </div>
