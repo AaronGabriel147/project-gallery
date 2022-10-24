@@ -2,11 +2,8 @@ import Head from 'next/head'
 import Image from 'next/future/image'
 import ImageCards from './ImageCards'
 import imgGal from '../public/imgGal.jpg';
-import NavBar from './NavBar';
-import Footer from './Footer';
-
-// import Link from 'next/link'
-// import plantROUTES from '../public/plantROUTES.gif'
+// import NavBar from './NavBar';
+// import Footer from './Footer';
 
 export default function Home() {
   return (
@@ -18,7 +15,8 @@ export default function Home() {
       </Head>
 
 
-      <NavBar />
+      {/* <NavBar /> */}
+
       <h1>Projects</h1>
       <div className="card">
         <Image

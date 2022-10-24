@@ -1,5 +1,5 @@
-import Footer from "./Footer";
-import NavBar from "./NavBar";
+// import Footer from "./Footer";
+// import NavBar from "./NavBar";
 import Image from 'next/future/image';
 import me3 from '../public/me3.jpg';
 import newBanner from '../public/newBanner.jpg';
