@@ -16,6 +16,8 @@ import lurker2 from '../public/lurker2.jpg';
 import thestoics from '../public/thestoics.jpg';
 import plants from '../public/plants.jpg';
 import todoFULL from '../public/todoFULL.jpg';
+import portfolio from '../public/portfolio.jpg';
+
 
 
 
@@ -31,7 +33,7 @@ const imageCards = [
         code: 'https://github.com/water-my-plantz',
     },
     {
-        title: 'A full stack React, Node, Express, PostGreSQL web application.',
+        title: 'A full stack React, Node, Express, PostGreSQL web application. This is an ancient philosophy app which allows users to create, read, update, and delete (CRUD) quotes.',
         image: thestoics,
         url: 'https://thestoics.netlify.app/',
         code: 'https://github.com/The-Stoics'
@@ -43,10 +45,16 @@ const imageCards = [
         code: 'https://github.com/AaronGabriel147/lurker'
     },
     {
-        title: "This is a React Firebase full stack web app with a document database and CRUD operations. This web app is for saving any text, notes, todo's, etc. ",
+        title: "A full stack React Firebase web app with a document database and CRUD operations. This web app is for saving any text, notes, todo's, etc. ",
         image: todoFULL,
         url: 'https://firebase-react-playground.vercel.app/',
         code: 'https://github.com/AaronGabriel147/firebase-react-playground'
+    },
+    {
+        title: "My portfolio site with GIF's showing off some of my full stack projects. This site has an emphasis on styling, it's a whole mood.",
+        image: portfolio,
+        url: 'https://aaron-gabriels-portfolio.vercel.app/',
+        code: 'https://github.com/AaronGabriel147/newPortfolio'
     },
     {
         title: 'A React web application built with the Hydrogen framework for Shopify.',

@@ -1,9 +1,11 @@
-import Image from 'next/future/image'
-// import Image from 'next/image'
-import ImageCards from './ImageCards'
 import Head from 'next/head'
+import Image from 'next/future/image'
+import ImageCards from './ImageCards'
 import imgGal from '../public/imgGal.jpg';
+import NavBar from './NavBar';
+import Footer from './footer';
 
+// import Link from 'next/link'
 // import plantROUTES from '../public/plantROUTES.gif'
 
 export default function Home() {
@@ -13,14 +15,12 @@ export default function Home() {
         <title>Project Gallery</title>
         <meta name="description" content="A gallery of all of my web dev projects." />
         <link rel="icon" href="/1.png" />
-
-        {/* <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" /> */}
-
-
       </Head>
 
-      <h1>Project Gallery</h1>
-      {/* <div className="line"></div> */}
+
+      <NavBar />
+      <h1>Projects</h1>
+      <div className="line"></div>
       <div className="card">
         <Image
           src={imgGal}
@@ -31,7 +31,7 @@ export default function Home() {
           quality="100"
           priority
         />
-        <p>A React Firebase full stack storage application that stores and displays images in a document database.</p>
+        <p>A full stack React Firebase storage application that stores and displays images in a document database.</p>
         <div className="link-cont">
           <a id="link" href="https://firebase-storage-three.vercel.app/" target="blank">url</a>
           <a id="link" href="https://github.com/AaronGabriel147/firebase-storage" target="blank">code</a>
@@ -40,6 +40,7 @@ export default function Home() {
       </div>
 
       <ImageCards />
+      <Footer />
 
       {/* 
       <div className="card">
