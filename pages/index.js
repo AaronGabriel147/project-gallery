@@ -3,7 +3,7 @@ import Image from 'next/future/image'
 import ImageCards from './ImageCards'
 import imgGal from '../public/imgGal.jpg';
 import NavBar from './NavBar';
-import Footer from './footer';
+import Footer from './Footer';
 
 // import Link from 'next/link'
 // import plantROUTES from '../public/plantROUTES.gif'
@@ -20,14 +20,12 @@ export default function Home() {
 
       <NavBar />
       <h1>Projects</h1>
-      {/* <div className="line"></div> */}
       <div className="card">
         <Image
           src={imgGal}
           alt='project'
           placeholder='blur'
           layout="responsive"
-          // objectFit='contain'
           quality="100"
           priority
         />

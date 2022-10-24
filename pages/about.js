@@ -1,4 +1,4 @@
-import Footer from "./footer";
+import Footer from "./Footer";
 import NavBar from "./NavBar";
 import Image from 'next/future/image';
 import me3 from '../public/me3.jpg';
@@ -14,7 +14,6 @@ export default function About() {
         <div className="app">
             <NavBar />
             <h1 id="about-h1">About</h1>
-            {/* <div className="line"></div> */}
 
             <div className="about-card">
                 <Image
@@ -24,7 +23,7 @@ export default function About() {
                     placeholder='blur'
                     layout="responsive"
                     quality="100"
-                    priority
+                // priority
                 />
                 <p>Hello, I am Aaron Gabriel, a full stack web developer with a strong dedication for creating beautiful, user-friendly websites. I have a background in web development and have a passion for creativity and problem solving. I am positive and resilient, I work well with others and love creating real world projects.</p>
                 <p>Some of my interests: I enjoy building and programming mechanical keyboards. I love science (astronomy, paleoanthropology, & evolution) as well as philosophy (ancient Greek & Roman Stoicism). My motivation for success is my family, I am married and have two daughters (4 & 6). There's nothing I enjoy more than being a parent. My passion and resilience for being a successful developer stems from my girls.</p>
