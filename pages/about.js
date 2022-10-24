@@ -12,7 +12,7 @@ import newGithub from '../public/newGithub.jpg';
 export default function About() {
     return (
         <div className="app">
-            {/* <NavBar /> */}
+            <NavBar />
             <h1 id="about-h1">About</h1>
 
             <div className="about-card">
