@@ -9,7 +9,6 @@ import apiWITHdelete from '../public/apiWITHdelete.jpg';
 import rSPACE from '../public/rSPACE.jpg';
 import rickNmorty from '../public/rickNmorty.jpg';
 import oldPORTFOLIO from '../public/oldPORTFOLIO.jpg';
-import firstHTML from '../public/firstHTML.jpg';
 import shopifyCLONE from '../public/shopifyCLONE.jpg';
 import banner from '../public/banner.jpg';
 import lurker2 from '../public/lurker2.jpg';
@@ -117,12 +116,6 @@ const imageCards = [
         code: 'https://codepen.io/AaronGabriel/pen/zYoVEjd?editors=1100'
     },
     {
-        title: 'My first attempt at HTML and CSS, in January 2021.',
-        image: firstHTML,
-        url: 'https://codepen.io/AaronGabriel/pen/OJRWwwX',
-        code: 'https://codepen.io/AaronGabriel/pen/OJRWwwX'
-    },
-    {
         title: 'A Figma presentation.',
         image: figmaStoics,
         url: 'https://www.figma.com/file/1ilZj7gIRRZy6RAZNFXHTp/Stoics?node-id=0%3A1',
@@ -153,7 +146,7 @@ export default function ImageCards() {
                         // objectFit='contain'
                         quality="100"
                     />
-                    <p>{card.title}</p>
+                    <p className="card-description-text">{card.title}</p>
                     <div className="link-cont">
                         {card.url && <a id="link" href={card.url} target="blank">url</a>}
                         {card.code && <a id="link" href={card.code} target="blank">code</a>}

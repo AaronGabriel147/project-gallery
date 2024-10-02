@@ -1,21 +1,11 @@
-DELETE LATER: 
+Web App URL:
+https://project-gallery-dun.vercel.app/
 
 
-import mobilelurker from '../public/mobilelurker.jpg'
 
-{/* <div className="card">
-<Image
-  src={mobilelurker}
-  alt='project'
-  placeholder='blur'
-  layout="responsive"
-  objectFit='contain'
-  quality="100"
-/>
-<p>Add text.</p>
-</div> */}
 
-{/* <h4>...</h4> */ }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 
@@ -26,9 +16,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
-# or
+
 yarn dev
+# or
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

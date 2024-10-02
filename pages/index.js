@@ -4,6 +4,10 @@ import ImageCards from './ImageCards'
 import imgGal from '../public/imgGal.jpg';
 import NavBar from './NavBar';
 import Footer from './Footer';
+import HeroSection from './HeroSection';
+
+
+
 
 export default function Home() {
   return (
@@ -17,6 +21,8 @@ export default function Home() {
 
       <NavBar />
 
+      <HeroSection />
+
       <h1>Projects</h1>
       <div className="card">
         <Image
@@ -27,7 +33,7 @@ export default function Home() {
           quality="100"
           priority
         />
-        <p>A full stack React Firebase storage application that stores and displays images in a document database.</p>
+        <p className="card-description-text">A full stack React Firebase storage application that stores and displays images in a document database.</p>
         <div className="link-cont">
           <a id="link" href="https://firebase-storage-three.vercel.app/" target="blank">url</a>
           <a id="link" href="https://github.com/AaronGabriel147/firebase-storage" target="blank">code</a>

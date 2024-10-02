@@ -58,10 +58,35 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background-color: rgb(238, 231, 219);
+  /* background-color: #00c4c4; */
+  /* background-color: #00acab; */
+  background-color: rgb(211, 212, 216);
+  /* Slightly darker than cyan */
+  /* background-color: cyan; */
+  /* background-color: turquoise; */
+  /* background-color: darkturquoise; */
+  /* background-color: mediumturquoise; */
+  /* background-color: teal; */
+  /* Tiffany Hex code via Google */
+  /* background-color: #81D8D0; */
+  /* Seaside Blue Rusto - color picked */
+  /* background-color: #03dfff; */
+
+
+/* Munsell Blue */
+  /* background-color: #00a0ae; */
+/* Seal Brown */
+  /* background-color: #572703; */
+
+/* gradient */
+  /* background: rgb(3,223,255);
+  background: linear-gradient(90deg, rgba(3,223,255,1) 2%, rgba(129,216,208,1) 100%); */
+
 }
 
 h1 {
-  /* font-weight: 100; */
+  font-weight: 100;
   color: rgb(48, 48, 48);
   font-size: 3rem;
   word-spacing: 0.3rem;
@@ -70,7 +95,6 @@ h1 {
   /* text-shadow: 0px 7px 8px rgba(0, 0, 0, 0.694); */
   /* margin-bottom: 2rem; */
   /* text-transform: uppercase; */
-
   font-weight: 200;
   font-family: 'IBM Plex Mono', monospace;
   font-style: italic;
@@ -101,9 +125,8 @@ p {
   align-items: center;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
+
 
 .card {
   width: 80%;
@@ -124,6 +147,11 @@ p {
 .card:hover {
   box-shadow: 0 3px 15px -3px rgba(44, 71, 226, 0.496);
   transition: .8s ease-in-out, box-shadow .1s ease-in-out;
+}
+
+.card-description-text {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 
@@ -150,18 +178,20 @@ img {
   /* border: solid grey; */
   /* background-color: rgb(121, 132, 148); */
   /* border-bottom: solid 1px rgba(238, 237, 237, 0.858); */
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   top: 0;
   box-shadow: 0 3px 15px -3px rgba(150, 150, 150, 0.266);
   font-weight: 500;
-  color: grey;
+  color: rgb(231, 231, 231);
   width: 100%;
   height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  background-color: #242627;
+  
 }
 
 ul {
@@ -184,7 +214,7 @@ li {
 }
 
 li:hover {
-  color: rgba(0, 0, 0, 0.748);
+  color: rgba(100, 100, 100, 0.748);
   text-shadow: 0px 7px 8px rgba(0, 0, 0, 0.16);
 }
 
@@ -272,3 +302,109 @@ li:hover {
     max-width: 100%;
   }
 }
+
+
+
+
+
+
+
+/* ~~~~~~~ Hero Section ~~~~~~~ */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  /* max-width: 1200px; */
+  min-height: 80vh;
+  /* margin: 50px auto; */
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* border: 2px solid cyan; */
+}
+
+.text-content {
+  padding: 20px;
+/*     border: 2px solid blue; */
+  min-width: 30%;
+}
+
+.sub-title {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main-title {
+  font-size: 37px;
+  /* font-weight: bold; */
+  margin: 10px 0;
+}
+
+.description {
+  margin: 30px 0;
+  color: #555;
+}
+
+
+
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+/*       background-color: #00000097; */
+  border: 1px solid hsla(0, 0%, 75%, .417);
+  border-radius: 16px 0;
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding: 10px 30px;
+  text-shadow: 1px 1px 3px transparent;
+  transition: .2s ease-in-out;
+
+}
+
+button:hover {
+  opacity: 0.8; /* Slightly lower opacity on hover */
+}
+
+
+/* Image Gallery Grid */
+.image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  grid-template-rows: 1fr 1fr; /* 2 rows */
+  gap: 15px;
+  
+}
+
+.image-item:nth-child(1) {
+  grid-row: span 2; /* The first image will span two rows */
+  height: 100%; /* Let the first image fill its space */
+  border-radius: 16px;
+}
+
+
+/* All images: */
+.image-item {
+  border-radius: 16px;
+  overflow: hidden;
+  
+}
+
+/* All images: */
+.image-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+
+/* ~~~~~ END HERO SECTION ~~~~~ */
