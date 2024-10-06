@@ -185,7 +185,7 @@ img {
   font-weight: 500;
   color: rgb(231, 231, 231);
   width: 100%;
-  height: 50px;
+  height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -217,6 +217,40 @@ li:hover {
   color: rgba(100, 100, 100, 0.748);
   text-shadow: 0px 7px 8px rgba(0, 0, 0, 0.16);
 }
+
+
+
+
+
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+/*       background-color: #00000097; */
+  border: 1px solid hsla(0, 0%, 75%, .417);
+  border-radius: 16px 0;
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding: 10px 30px;
+  text-shadow: 1px 1px 3px transparent;
+  transition: .2s ease-in-out;
+
+}
+
+button:hover {
+  opacity: 0.8; /* Slightly lower opacity on hover */
+  color: hsl(0, 0%, 80%);
+}
+
+
+
+
+/*  ~~~~~~ ABOUT ME ~~~~~~ */
 
 
 .about-card {
@@ -309,26 +343,39 @@ li:hover {
 
 
 
+
+
+
+
 /* ~~~~~~~ Hero Section ~~~~~~~ */
+
+
 
 .hero-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1%;
-  /* max-width: 1200px; */
-  min-height: 80vh;
+  /* max-width: 1528px; */
+  /* min-height: 80vh; */
+  /* max-height: 100vh; */
+  min-height: 90vh;
   /* margin: 50px auto; */
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+  background-color: #f6f6f6;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* padding-left: 2%; */
   /* border: 2px solid cyan; */
+  position: relative; /* @@@ Ensure the hero section is relative for positioning the arrows */
+background-color: #ececec;
+  /* background: rgb(32,170,190); */
+  /* background: linear-gradient(324deg, rgba(32,170,190,1) 17%, rgba(18,199,226,1) 84%, rgba(129,216,208,1) 100%); */
 }
 
 .text-content {
   padding: 20px;
 /*     border: 2px solid blue; */
   min-width: 30%;
+  padding-left: 3%;
 }
 
 .sub-title {
@@ -350,39 +397,16 @@ li:hover {
 }
 
 
-
-button {
-  background-color: #000;
-  color: #fff;
-  border: none;
-  padding: 15px 30px;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 5px;
-  margin-top: 10px;
-/*       background-color: #00000097; */
-  border: 1px solid hsla(0, 0%, 75%, .417);
-  border-radius: 16px 0;
-  font-size: 1rem;
-  margin-top: 2rem;
-  padding: 10px 30px;
-  text-shadow: 1px 1px 3px transparent;
-  transition: .2s ease-in-out;
-
-}
-
-button:hover {
-  opacity: 0.8; /* Slightly lower opacity on hover */
-}
-
-
 /* Image Gallery Grid */
 .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr; /* 2 columns */
   grid-template-rows: 1fr 1fr; /* 2 rows */
   gap: 15px;
-  
+  /* border: 2px solid rgb(212, 209, 209); */
+  max-width: 65%;
+  justify-items: center;
+  align-items: center;
 }
 
 .image-item:nth-child(1) {
@@ -401,10 +425,139 @@ button:hover {
 
 /* All images: */
 .image-item img {
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  /* height: 100%; */
   border-radius: 16px;
+  /* max-height: 600px; */
+  /* border: 2px solid red !important; */
 }
+
+
+
+
+
+
+/* Slider Arrows */
+.slider-arrows {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  /* width: 100px; */
+  z-index: 10;
+} /* @@@ Position arrows at the bottom center of the screen */
+
+.arrow {
+  background-color: rgb(44, 44, 44);
+  color: white;
+  border: none;
+  /* padding: 10px; */
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 1%;
+  transition: background-color 0.3s;
+} /* @@@ Style for arrows */
+
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+} /* @@@ Hover effect for arrows */
+
+.left-arrow {
+  margin-right: 20px;
+}
+
+.right-arrow {
+  margin-left: 20px;
+}
+
+
+
+
+/* Media Query for screens 900px and below */
+@media (max-width: 1000px) {
+  .image-gallery {
+    display: flex; /* @@@ Change to flexbox for better layout control */
+    flex-direction: column; /* @@@ Stack images vertically */
+    gap: 10px;
+    margin-bottom: 90px;
+  }
+
+  .image-item {
+    width: 100%; /* @@@ Ensure images take up full width of container */
+  }
+
+  .image-item:nth-child(3) {
+    display: none; /* Hide the third image for smaller screens */
+  }
+}
+
+
+
+
+/* MOBILE: */
+/* Media Query for screens 750px and below */
+@media (max-width: 750px) {
+  .hero-section {
+    min-height: 90vh; 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    justify-content: space-around;
+  }
+
+  .image-gallery {
+    display: flex; /* @@@ Change to flexbox for better layout control */
+    flex-direction: column; /* @@@ Stack images vertically */
+    gap: 10px;
+    /* margin-bottom: 400px; */
+    /* align-items: center; */
+  }
+
+  .image-item {
+    width: 130% !important; /* @@@ Ensure images take up 90% of container width on mobile */
+    max-width: 130% !important; /* @@@ Make sure images are not restricted by any built-in max-widths */
+  }
+
+  .image-item:nth-child(n+2) {
+    display: none; /* @@@ Hide all but the first image for smaller screens */
+  }
+
+  .about-me-button {
+    display: none; /* @@@ Hide the About Me button on mobile */
+  }
+
+  .sub-title {
+    display: none;
+  }
+
+  .main-title {
+    font-size: 28px;
+  }
+
+  .text-content {
+    padding: 5%;
+    padding-left: 5%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description {
+    /* border: 2px solid red; */
+    margin: 0;
+  }
+
+  .arrow {
+    font-size: 20px;
+  }
+}
+
+
+
 
 
 /* ~~~~~ END HERO SECTION ~~~~~ */
