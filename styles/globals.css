@@ -354,19 +354,21 @@ button:hover {
 .hero-section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
+  align-items: flex-start;
   padding: 1%;
+  padding-top: 70px;
   /* max-width: 1528px; */
   /* min-height: 80vh; */
   /* max-height: 100vh; */
-  min-height: 90vh;
+  min-height: 70vh;
   /* margin: 50px auto; */
   background-color: #f6f6f6;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   /* padding-left: 2%; */
   /* border: 2px solid cyan; */
   position: relative; /* @@@ Ensure the hero section is relative for positioning the arrows */
-background-color: #ececec;
+   background-color: #ececec;
   /* background: rgb(32,170,190); */
   /* background: linear-gradient(324deg, rgba(32,170,190,1) 17%, rgba(18,199,226,1) 84%, rgba(129,216,208,1) 100%); */
 }
@@ -406,7 +408,7 @@ background-color: #ececec;
   /* border: 2px solid rgb(212, 209, 209); */
   max-width: 65%;
   justify-items: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .image-item:nth-child(1) {
@@ -506,6 +508,8 @@ background-color: #ececec;
     /* justify-content: center; */
     /* justify-content: flex-start; */
     justify-content: space-around;
+    padding-top: 0;
+    /* border: 2px solid green; */
   }
 
   .image-gallery {
@@ -514,11 +518,21 @@ background-color: #ececec;
     gap: 10px;
     /* margin-bottom: 400px; */
     /* align-items: center; */
+  /* border: 2px solid blue; */
+  min-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
   }
 
   .image-item {
-    width: 130% !important; /* @@@ Ensure images take up 90% of container width on mobile */
-    max-width: 130% !important; /* @@@ Make sure images are not restricted by any built-in max-widths */
+    /* width: 130% !important;  */
+    /* max-width: 130% !important;  */
+  /* border: 2px solid red; */
+  /* padding-left: 50px; */
+  
+
   }
 
   .image-item:nth-child(n+2) {

@@ -15,6 +15,7 @@ import petmakerGIF from '../public/petmakerGIF.gif';
 import tuttos from '../public/tuttos.png';
 
 import petmakerDesktopSS from '../public/petmakerDesktopSS.png';
+import sefiaTemplate from '../public/sefiaTemplate.png';
 
 
 
@@ -27,7 +28,7 @@ const slides = [
     { 
         title: "Full Stack Solutions",
         description: "I specialize in building full-stack applications, handling both frontend and backend seamlessly. My skills include Node.js, Express, and database management with MongoDB and PostgreSQL.",
-        images: [xfolsom, plants, petmakerDesktopSS]
+        images: [sefiaTemplate, plants, petmakerDesktopSS]
     },
     {
         title: "E-Commerce Expert",
