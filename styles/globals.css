@@ -415,6 +415,7 @@ button:hover {
   grid-row: span 2; /* The first image will span two rows */
   height: 100%; /* Let the first image fill its space */
   border-radius: 16px;
+  margin-bottom: 70px;
 }
 
 
@@ -522,6 +523,7 @@ button:hover {
   min-width: 100%;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 0;
 
 
   }

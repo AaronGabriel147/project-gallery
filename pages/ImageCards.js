@@ -56,13 +56,7 @@ const imageCards = [
         code: 'https://github.com/AaronGabriel147/newPortfolio'
     },
     {
-        title: 'A React web application built with the Hydrogen framework for Shopify.',
-        image: shopifyhome,
-        url: '',
-        code: ''
-    },
-    {
-        title: 'A set of React challenges which includes, form validation, API fetching, and ascynchronous JavaScript.',
+        title: 'A set of React challenges that I created, which includes, form validation, API fetching, and ascynchronous JavaScript.',
         image: reactCHALLENGES,
         url: 'https://codepen.io/AaronGabriel/full/ZExdjNJ',
         code: 'https://codepen.io/AaronGabriel/pen/ZExdjNJ'
@@ -92,12 +86,6 @@ const imageCards = [
         code: 'https://stackblitz.com/edit/react-ts-avhpwa?file=App.tsx'
     },
     {
-        title: 'A shopify clone site to help learn Shopify.',
-        image: shopifyCLONE,
-        url: '',
-        code: ''
-    },
-    {
         title: 'A RESTful API call which fetches data with a toggle to show or hide data.',
         image: rickNmorty,
         url: 'https://react-5zsf81.stackblitz.io/',
@@ -108,12 +96,6 @@ const imageCards = [
         image: imgfyc,
         url: 'https://react-ts-klpzms.stackblitz.io/',
         code: 'https://stackblitz.com/edit/react-ts-klpzms?file=App.tsx'
-    },
-    {
-        title: 'My first attempt at a portfolio website, in early 2021.',
-        image: oldPORTFOLIO,
-        url: 'https://codepen.io/AaronGabriel/full/zYoVEjd',
-        code: 'https://codepen.io/AaronGabriel/pen/zYoVEjd?editors=1100'
     },
     {
         title: 'A Figma presentation.',
