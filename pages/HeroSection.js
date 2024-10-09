@@ -22,7 +22,7 @@ import sefiaTemplate from '../public/sefiaTemplate.png';
 const slides = [
     { 
         title: "Meet Aaron Gabriel",
-        description: "With a passion for web development and a focus on delivering seamless user experiences, I specialize in frontend technologies. From clean, responsive websites to dynamic web apps, I leverage my expertise in React.js and Shopify development.",
+        description: "With a passion for web development, I specialize in frontend & backend tech. From clean, responsive websites to dynamic web apps, I leverage my expertise in React.js and Shopify development.",
         images: [xfolsom, codeHeroSectionSS, newBanner]
     },
     { 
