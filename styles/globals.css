@@ -52,8 +52,8 @@ body {
   min-width: 17rem;
 
   /* background-image: url("https://www.transparenttextures.com/patterns/climpek.png"); */
-  /* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); */
-  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/gplay.png"); */
 
 }
 
@@ -111,17 +111,6 @@ h1 {
 }
 
 
-.line {
-  border-top: solid 1px;
-  color: rgba(0, 0, 0, 0.183);
-  width: 100%;
-
-  max-width: 70%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-
-  /* box-shadow: 0px 1px 9px #605f5f; */
-}
 
 p {
   /* border: solid #282c34; */
@@ -172,12 +161,18 @@ img {
 }
 
 
+
+
+
+
+
 .link {
   margin-left: 15px;
   margin-right: 15px;
   color: dodgerblue;
   font-size: 1.1rem;
   font-family: 'IBM Plex Mono', monospace;
+  /* border: 2px solid green; */
 }
 
 .link:hover {
@@ -341,6 +336,7 @@ button:hover {
   background: rgba(255, 255, 255, 0.13);
   backdrop-filter: saturate(10%) blur(7px);
   background: rgb(3,223,255);
+
 }
 
 .about-card p {
@@ -365,11 +361,166 @@ button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem;
+  /* padding-bottom: 1rem; */
+  margin-top: 1rem;
+  padding-top: 2rem;
+
+  /* border: 2px solid red; */
+  /* background: #565249; */
+  /* background: #815050; */
+
 }
 
+
+
+
+
+
+/* Footer lines */
+.outer-wrapper {
+  min-width: 100%;
+
+  /* padding-top: 100px; */
+  background: #fdfdfd;
+}
+
+.inner-wrapper {
+  padding-bottom: 50px;
+  background: #565249;
+}
+
+.bg-primary {
+  background: #fdfdfd;
+}
+
+.item-0 {
+  margin-top: 0px;
+  height: .1px;
+}
+
+.item-1 {
+  margin-top: 1px;
+  height: 22px;
+}
+
+.item-2 {
+  margin-top: 2px;
+  height: 21px;
+}
+
+.item-3 {
+  margin-top: 3px;
+  height: 20px;
+}
+
+.item-4 {
+  margin-top: 4px;
+  height: 19px;
+}
+
+.item-5 {
+  margin-top: 5px;
+  height: 18px;
+}
+
+.item-6 {
+  margin-top: 6px;
+  height: 17px;
+}
+
+.item-7 {
+  margin-top: 7px;
+  height: 16px;
+}
+
+.item-8 {
+  margin-top: 8px;
+  height: 15px;
+}
+
+.item-9 {
+  margin-top: 9px;
+  height: 14px;
+}
+
+.item-10 {
+  margin-top: 10px;
+  height: 13px;
+}
+
+.item-11 {
+  margin-top: 11px;
+  height: 12px;
+}
+
+.item-12 {
+  margin-top: 12px;
+  height: 11px;
+}
+
+.item-13 {
+  margin-top: 13px;
+  height: 10px;
+}
+
+.item-14 {
+  margin-top: 14px;
+  height: 9px;
+}
+
+.item-15 {
+  margin-top: 15px;
+  height: 8px;
+}
+
+.item-16 {
+  margin-top: 16px;
+  height: 7px;
+}
+
+.item-17 {
+  margin-top: 17px;
+  height: 6px;
+}
+
+.item-18 {
+  margin-top: 18px;
+  height: 5px;
+}
+
+.item-19 {
+  margin-top: 19px;
+  height: 4px;
+}
+
+.item-20 {
+  margin-top: 20px;
+  height: 3px;
+}
+
+.item-21 {
+  margin-top: 21px;
+  height: 2px;
+}
+
+.item-22 {
+  margin-top: 22px;
+  height: 1px;
+}
+
+.item-23 {
+  margin-top: 23px;
+  height: 0px;
+}
+
+
+
+
+
+
 .footer-txt {
-  color: rgb(106, 106, 106);
+  color: #372521;
+
   font-size: .9rem;
   margin: 0;
   margin-left: 1rem;
@@ -384,14 +535,31 @@ button:hover {
 }
 
 .footer-container {
-  /* border: 2px solid red; */
   display: flex;
   align-items: center;
-  flex-direction: column;
-  padding: 2%;
-  width: 90%;
-  /* border: 2px solid red; */
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid rgb(179, 0, 255); */
+  padding-top: 50px;
 }
+
+@media (max-width: 400px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-logo-container {
+    margin-top: 50px;
+  }
+
+  .footer-link-container {
+    margin-top: 50px;
+    border: 2px solid rgb(55, 255, 0);
+  }
+
+}
+
 
 #me3 {
   margin-top: 2rem;
@@ -402,6 +570,17 @@ button:hover {
   box-shadow: 0 3px 15px -3px rgb(17, 101, 255),
     0 -2px 6px -4px rgb(39, 102, 250);
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 1000px) {
@@ -424,9 +603,7 @@ button:hover {
     width: 93%;
   }
 
-  .line {
-    max-width: 100%;
-  }
+
 }
 
 
