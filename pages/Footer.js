@@ -38,7 +38,7 @@ export default function Footer() {
 
 <div class="footer-container">
 
-    <ul class="footer-link-container" class="link">
+    <ul class="footer-link-container link">
         <Link href="/about">
             <li class="footer-link">About</li>
         </Link>
