@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="app">
       <Head>
-        <title>Project Gallery</title>
+        <title>Aaron Gabriel</title>
         <meta name="description" content="A gallery of all of my web dev projects." />
         <link rel="icon" href="/1.png" />
       </Head>
@@ -44,19 +44,6 @@ export default function Home() {
       <ImageCards />
       <Footer />
 
-      {/* 
-      <div className="card">
-        <Image
-          src={plantROUTES}
-          alt='project'
-          // placeholder='blur'
-          layout="responsive"
-          objectFit='contain'
-          quality="100"
-          blurDataURL
-        />
-        <p>add text*</p>
-      </div> */}
 
     </div>
   )
