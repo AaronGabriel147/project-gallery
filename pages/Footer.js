@@ -3,8 +3,8 @@ export default function Footer() {
     return (
         <div className="about-footer">
             <div className="line"></div>
-            <p id="footer-txt">Created by Aaron Gabriel</p>
-            <a id="footer-txt" href="https://github.com/AaronGabriel147/project-gallery">This web app was built with Next.js and has all of the Next/Future/Image optimizations for extremely fast load times.</a>
+            <p id="footer-txt">@2024 Created by Aaron Gabriel</p>
+            <a id="link" style={{ padding   : '24px' }} href="mailto:aarongabriel147@gmail.com">Contact Me</a>
         </div >
     )
 }

@@ -25,8 +25,12 @@ export default function About() {
                     quality="100"
                 // priority
                 />
-                <p>Hello, I am Aaron Gabriel, a full stack web developer with a strong dedication for creating beautiful, user-friendly websites. I have a background in web development and have a passion for creativity and problem solving. I am positive and resilient, I work well with others and love creating real world projects.</p>
-                <p>Some of my interests: I enjoy building and programming mechanical keyboards. I love science, especially astronomy, and paleoanthropology, as well as philosophy, especially ancient Greek & Roman Stoicism.</p>
+                <p>Hello, I'm Aaron Gabriel, a passionate and dedicated Full Stack Web Developer specializing in creating engaging, responsive, and user-friendly websites. I bring a strong technical background in frontend and backend development, focusing on delivering seamless user experiences. With expertise in modern JavaScript frameworks, including React.js, and experience in Shopify development, I am committed to building solutions that solve real-world problems and delight users.</p>
+                <p>I am a proactive team player who thrives in collaborative environments, and I take pride in my ability to adapt and learn quickly. My creative mindset and problem-solving skills enable me to tackle challenging projects with a positive attitude.</p>
+            
+                <a id="link" style={{ padding   : '24px' }} href="mailto:aarongabriel147@gmail.com">Contact Me</a>
+
+            
             </div>
 
             {/* LinkedIn */}

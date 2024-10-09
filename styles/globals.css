@@ -145,7 +145,7 @@ p {
 }
 
 .card:hover {
-  box-shadow: 0 3px 15px -3px rgba(44, 71, 226, 0.496);
+  /* box-shadow: 0 3px 15px -3px rgba(44, 71, 226, 0.496); */
   transition: .8s ease-in-out, box-shadow .1s ease-in-out;
 }
 
@@ -270,12 +270,18 @@ button:hover {
   backdrop-filter: saturate(10%) blur(7px);
 }
 
-.about-card:hover {
-  /* box-shadow: 0 3px 15px -3px rgba(44, 26, 248, 0.699); */
-  box-shadow: 0 3px 15px -3px rgba(44, 26, 248, 0.699);
-
-  transition: .8s ease-in-out, box-shadow .1s ease-in-out;
+.about-card p {
+  padding-left: 4%;
+  padding-right: 4%;
 }
+
+
+
+/* .about-card:hover { */
+  /* box-shadow: 0 3px 15px -3px rgba(44, 26, 248, 0.699); */
+  /* box-shadow: 0 3px 15px -3px rgba(44, 26, 248, 0.699); */
+  /* transition: .8s ease-in-out, box-shadow .1s ease-in-out; */
+/* } */
 
 
 .about-footer {
@@ -324,7 +330,6 @@ button:hover {
 
   .nav {
     padding-right: 0;
-    justify-content: center;
     box-shadow: 0 3px 15px -3px rgba(0, 0, 0, 0.161);
   }
 

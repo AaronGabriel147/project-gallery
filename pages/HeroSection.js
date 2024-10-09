@@ -27,12 +27,12 @@ const slides = [
     },
     { 
         title: "Full Stack Solutions",
-        description: "I specialize in building full-stack applications, handling both frontend and backend seamlessly. My skills include Node.js, Express, and database management with MongoDB and PostgreSQL.",
+        description: "I specialize in building full-stack applications, handling both frontend and backend seamlessly. My skills include Node.js, Express, and database management with PostgreSQL.",
         images: [sefiaTemplate, plants, petmakerDesktopSS]
     },
     {
         title: "E-Commerce Expert",
-        description: "As a Shopify expert, I can help businesses grow with scalable, customized e-commerce solutions, integrating everything from payment gateways to inventory management.",
+        description: "As a Shopify expert, I can help businesses grow with scalable, customized e-commerce solutions, focusing on creating industry standard storefronts and optimizing user experience.",
         images: [GNPfinalGIF, tuttos, slice16x9]
     }
 ]; // Define an array of slides with different text and image sets
