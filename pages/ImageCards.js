@@ -28,13 +28,13 @@ const imageCards = [
     {
         title: 'A full stack React, Node, Express, PostGreSQL web app, which allows users to securely log in with a hashed password and a JSON Web Token. Users are then able to access authenticated routes',
         image: plants,
-        url: 'https://water-my-plants-frontend-psi.vercel.app/plants',
+        url: '',
         code: 'https://github.com/water-my-plantz',
     },
     {
         title: 'A full stack React, Node, Express, PostGreSQL web application. This is an ancient philosophy app which allows users to create, read, update, and delete (CRUD) quotes.',
         image: thestoics,
-        url: 'https://thestoics.netlify.app/',
+        url: '',
         code: 'https://github.com/The-Stoics'
     },
     {
