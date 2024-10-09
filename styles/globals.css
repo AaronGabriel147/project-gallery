@@ -181,13 +181,11 @@ img {
 }
 
 .link:hover {
-  color: rgba(17, 17, 218, 0.746);
+  /* color: rgba(17, 17, 218, 0.746); */
   transition: .2s ease-in-out, box-shadow .1s ease-in-out;
 }
 
 #contact-me:hover {
-
-
   color: rgba(100, 100, 100, 0.748);
   text-shadow: 0px 7px 8px rgba(0, 0, 0, 0.16);
 }
@@ -247,8 +245,9 @@ li:hover {
 
 
 
+
+
 button {
-  background-color: #000;
   color: #fff;
   border: none;
   padding: 15px 30px;
@@ -256,7 +255,6 @@ button {
   font-size: 16px;
   border-radius: 5px;
   margin-top: 10px;
-/*       background-color: #00000097; */
   border: 1px solid hsla(0, 0%, 75%, .417);
   border-radius: 16px 0;
   font-size: 1rem;
@@ -268,9 +266,50 @@ button {
 }
 
 button:hover {
-  opacity: 0.8; /* Slightly lower opacity on hover */
+  /* opacity: 0.8;  */
   color: hsl(0, 0%, 80%);
 }
+
+
+.card-btn {
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 1px solid hsla(0, 0%, 75%, .417);
+  border-radius: 16px 0;
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding: 10px 30px;
+  text-shadow: 1px 1px 3px transparent;
+  transition: .2s ease-in-out;
+  background-color: #382521;
+  border: 2px solid cyan;
+  min-width: 150px;
+  text-align: center;
+}
+
+.card-btn:hover {
+  background-color: #2e1e1a; /* Darken the button color slightly to provide a clear visual contrast */
+  transform: translateY(-3px); /* Adds a slight lift effect for better interactivity */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow to give the button a more elevated appearance */
+
+  color: rgba(17, 17, 218, 0.746);
+  transition: .2s ease-in-out, box-shadow .1s ease-in-out;
+}
+
+.link-cont {
+  padding-bottom: 10px;
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;;
+}
+
+
 
 
 
@@ -293,10 +332,7 @@ button:hover {
     0 -2px 6px -4px rgb(0 0 0 / 0.1);
   background: rgba(255, 255, 255, 0.13);
   backdrop-filter: saturate(10%) blur(7px);
-
-
-
-background: rgb(3,223,255);
+  background: rgb(3,223,255);
 }
 
 .about-card p {
@@ -304,13 +340,12 @@ background: rgb(3,223,255);
   padding-right: 4%;
 }
 
+.about-me-button {
+  font-family: 'IBM Plex Mono', monospace;
+}
 
 
-/* .about-card:hover { */
-  /* box-shadow: 0 3px 15px -3px rgba(44, 26, 248, 0.699); */
-  /* box-shadow: 0 3px 15px -3px rgba(44, 26, 248, 0.699); */
-  /* transition: .8s ease-in-out, box-shadow .1s ease-in-out; */
-/* } */
+
 
 
 .about-footer {
@@ -522,7 +557,7 @@ background: rgb(3,223,255);
 
 .arrow:hover {
   background-color: rgba(0, 0, 0, 0.8);
-} /* @@@ Hover effect for arrows */
+}
 
 .left-arrow {
   margin-right: 20px;
