@@ -189,6 +189,13 @@ img {
   transition: .2s ease-in-out, box-shadow .1s ease-in-out;
 }
 
+#contact-me:hover {
+
+
+  color: rgba(100, 100, 100, 0.748);
+  text-shadow: 0px 7px 8px rgba(0, 0, 0, 0.16);
+}
+
 .nav {
   /* border: solid grey; */
   /* background-color: rgb(121, 132, 148); */
@@ -284,7 +291,9 @@ button:hover {
   background: rgba(255, 255, 255, 0.13);
   backdrop-filter: saturate(10%) blur(7px);
 
-  background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
+
+
+background: rgb(3,223,255);
 }
 
 .about-card p {
@@ -321,6 +330,11 @@ button:hover {
   margin-right: 1rem;
   margin-top: 1rem;
   padding-top: 40px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.footer-link {
+  margin-bottom: 10px;
 }
 
 .footer-container {
