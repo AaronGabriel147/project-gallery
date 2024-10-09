@@ -479,12 +479,11 @@ background: rgb(3,223,255);
 }
 
 .main-title {
-  font-size: 38px;
   width: 100%;
   /* font-weight: bold; */
   margin: 10px 0;
   margin-bottom: 20px;
-  text-align: center;
+  font-size: 28px;
 }
 
 .description {
@@ -645,6 +644,7 @@ background: rgb(3,223,255);
   }
 
   .main-title {
+    text-align: center;
     font-size: 28px;
   }
 
