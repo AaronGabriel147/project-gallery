@@ -130,8 +130,8 @@ export default function ImageCards() {
                     />
                     <p className="card-description-text">{card.title}</p>
                     <div className="link-cont">
-                        {card.url && <a id="link" href={card.url} target="blank">url</a>}
-                        {card.code && <a id="link" href={card.code} target="blank">code</a>}
+                        {card.url && <a class="link" href={card.url} target="blank">url</a>}
+                        {card.code && <a class="link" href={card.code} target="blank">code</a>}
                     </div>
 
                 </div>
