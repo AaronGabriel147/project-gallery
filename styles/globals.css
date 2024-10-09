@@ -47,9 +47,13 @@ body {
   background-position: center;
   min-height: -webkit-fill-available;
   background-color: #ffffff;
-  /* background-image: url('https://www.transparenttextures.com/patterns/subtle-white-feathers.png'); */
-  background-attachment: fixed;
-  background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png"); */
+
+  min-width: 17rem;
+
+  /* background-image: url("https://www.transparenttextures.com/patterns/climpek.png"); */
+  /* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 
 }
 
@@ -100,8 +104,8 @@ h1 {
   font-weight: 200;
   font-family: 'IBM Plex Mono', monospace;
   font-style: italic;
-  background-image: linear-gradient(#ff8c00, fuchsia);
-
+  /* background-image: linear-gradient(#ff8c00, fuchsia); */
+  background-color: #382521;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -143,19 +147,11 @@ p {
   align-items: center;
   box-shadow: 0 3px 15px -3px rgba(0, 0, 0, 0.3),
     0 -2px 6px -4px rgb(0 0 0 / 0.1);
-  background: rgba(255, 255, 255, 0.13);
+  /* background: rgba(255, 255, 255, 0.13); */
   backdrop-filter: saturate(10%) blur(7px);
 
-
-
-   
-
-
-/* Munsell Blue */
-  background-color: #00a0ae;
-
-background: rgb(3,223,255);
-  background: linear-gradient(90deg, rgba(3,223,255,1) 2%, rgb(2, 187, 255) 100%); 
+  background: rgb(3,223,255);
+  /* background: linear-gradient(90deg, rgba(3,223,255,1) 2%, rgb(2, 187, 255) 100%);  */
 
 }
 
@@ -212,7 +208,14 @@ img {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  background-color: #242627;
+  /* background-color: #242627; */
+  /* background-color: #4a3d36; */
+  /* background-color: #3e2723; */
+  background-color: #382521;
+
+
+
+
   
 }
 
@@ -261,7 +264,7 @@ button {
   padding: 10px 30px;
   text-shadow: 1px 1px 3px transparent;
   transition: .2s ease-in-out;
-
+  background-color: #382521;
 }
 
 button:hover {
@@ -514,7 +517,8 @@ background: rgb(3,223,255);
   font-size: 30px;
   border-radius: 1%;
   transition: background-color 0.3s;
-} /* @@@ Style for arrows */
+  background-color: #382521;
+} 
 
 .arrow:hover {
   background-color: rgba(0, 0, 0, 0.8);

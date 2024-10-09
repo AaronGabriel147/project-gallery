@@ -35,8 +35,8 @@ export default function Home() {
         />
         <p className="card-description-text">A full stack React Firebase storage application that stores and displays images in a document database.</p>
         <div className="link-cont">
-          <a id="link" href="https://firebase-storage-three.vercel.app/" target="blank">url</a>
-          <a id="link" href="https://github.com/AaronGabriel147/firebase-storage" target="blank">code</a>
+          <a class="link" href="https://firebase-storage-three.vercel.app/" target="blank">url</a>
+          <a class="link" href="https://github.com/AaronGabriel147/firebase-storage" target="blank">code</a>
         </div>
 
       </div>
