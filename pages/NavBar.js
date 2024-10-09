@@ -12,7 +12,7 @@ function NavBar() {
     <Image
         src={phoenixLogo}
         alt='project'
-        placeholder='blur'
+        // placeholder='blur'
         layout="responsive"
         quality="100"
         priority
