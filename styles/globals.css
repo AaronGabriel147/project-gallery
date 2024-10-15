@@ -9,7 +9,11 @@
 :root {
   --BG-1: #565249;
   --BG-2: #00a0ae;
-  --border-color: #393532;
+  /* --BG-3: #ede8d0; */
+  --BG-3: #e9e6d4;
+
+
+  --border-color: #43cbe8;
   --button-color: #494541;
   --color-1: #ffffff;
   --logo-color: #43cbe8
@@ -41,7 +45,7 @@ var(--logo-color);
 
 ::-webkit-scrollbar-thumb {
   background-color: #bbbbbb59;
-  background-color: var(--BG-2);
+  background-color: var(--BG-3);
   border-radius: 1.25rem;
   border: 2px solid transparent;
   background-clip: content-box;
@@ -73,15 +77,12 @@ body {
   background-attachment: fixed;
   background-position: center;
   min-height: -webkit-fill-available;
-  background-color: #ffffff;
-  /* background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png"); */
-
+  background-color: var(--BG-3);
   min-width: 17rem;
-
+  /* background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png"); */
   /* background-image: url("https://www.transparenttextures.com/patterns/climpek.png"); */
-  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); */
   /* background-image: url("https://www.transparenttextures.com/patterns/gplay.png"); */
-
 }
 
 .app {
@@ -105,13 +106,10 @@ body {
   /* background-color: #81D8D0; */
   /* Seaside Blue Rusto - color picked */
   /* background-color: #03dfff; */
-
-
 /* Munsell Blue */
   /* background-color: #00a0ae; */
 /* Seal Brown */
   /* background-color: #572703; */
-
 /* gradient */
   /* background: rgb(3,223,255);
   background: linear-gradient(90deg, rgba(3,223,255,1) 2%, rgb(2, 187, 255) 100%);  */
@@ -169,7 +167,7 @@ p {
   background: rgb(3,223,255);
   /* background: linear-gradient(90deg, rgba(3,223,255,1) 2%, rgb(2, 187, 255) 100%);  */
   background: var(--BG-2);
-
+  
 }
 
 
@@ -286,7 +284,7 @@ button {
   font-size: 16px;
   border-radius: 5px;
   margin-top: 10px;
-  border: 1px solid hsla(0, 0%, 75%, .417);
+  /* border: 1px solid hsla(0, 0%, 75%, .417); */
   border-radius: 16px 0;
   font-size: 1rem;
   margin-top: 2rem;
@@ -294,6 +292,7 @@ button {
   text-shadow: 1px 1px 3px transparent;
   transition: .2s ease-in-out;
   background-color: var(--button-color);
+  border: none;
 }
 
 button:hover {
@@ -310,15 +309,13 @@ button:hover {
   font-size: 16px;
   border-radius: 5px;
   margin-top: 10px;
-  /* border: 1px solid hsla(0, 0%, 75%, .417); */
   border-radius: 16px 0;
   font-size: 1rem;
   margin-top: 2rem;
   padding: 10px 30px;
   text-shadow: 1px 1px 3px transparent;
   transition: .2s ease-in-out;
-  /* background-color: #382521; */
-  /* border: 2px solid var(--border-color); */
+  border: 1px solid var(--border-color);
   background-color: var(--button-color);
   min-width: 150px;
   text-align: center;
@@ -406,18 +403,18 @@ button:hover {
 /* Footer lines */
 .outer-wrapper {
   min-width: 100%;
-
   /* padding-top: 100px; */
-  background: #fdfdfd;
+  /* background: #fdfdfd; */
 }
 
 .inner-wrapper {
   padding-bottom: 50px;
-  background: #565249;
+  background: var(--BG-1);
 }
 
 .bg-primary {
-  background: #fdfdfd;
+  /* background: var(--color-1); */
+  background: var(--BG-3);
 }
 
 .item-0 {
@@ -546,8 +543,7 @@ button:hover {
 
 
 .footer-txt {
-  color: #372521;
-
+  color: var(--color-1);
   font-size: .9rem;
   margin: 0;
   margin-left: 1rem;
@@ -570,7 +566,6 @@ button:hover {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  /* border: 2px solid rgb(179, 0, 255); */
   padding-top: 50px;
 }
 
@@ -653,15 +648,9 @@ button:hover {
   align-items: flex-start;
   padding: 1%;
   padding-top: 70px;
-  /* max-width: 1528px; */
-  /* min-height: 80vh; */
-  /* max-height: 100vh; */
   min-height: 70vh;
-  /* margin: 50px auto; */
   background-color: #f6f6f6;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* padding-left: 2%; */
-  /* border: 2px solid cyan; */
   position: relative; /* @@@ Ensure the hero section is relative for positioning the arrows */
    background-color: #ececec;
   /* background: rgb(32,170,190); */
@@ -670,7 +659,7 @@ button:hover {
   background-color: #00a0ae;
   background: rgb(3,223,255);
   /* background: linear-gradient(90deg, rgba(3,223,255,1) 2%, rgb(2, 187, 255) 100%); */
-  background-color: var(--BG-2);;
+  background-color: var(--color-1);
 /* --BG-1: #574e45;
   --BG-2: #382521;
   --button-color: #00a0ae; */
@@ -678,7 +667,6 @@ button:hover {
 
 .text-content {
   padding: 20px;
-/*     border: 2px solid blue; */
   min-width: 30%;
   padding-left: 3%;
 }
@@ -710,7 +698,6 @@ button:hover {
   grid-template-columns: 1fr 1fr; /* 2 columns */
   grid-template-rows: 1fr 1fr; /* 2 rows */
   gap: 15px;
-  /* border: 2px solid rgb(212, 209, 209); */
   max-width: 65%;
   justify-items: center;
   /* align-items: center; */
@@ -737,7 +724,6 @@ button:hover {
   /* height: 100%; */
   border-radius: 16px;
   /* max-height: 600px; */
-  /* border: 2px solid red !important; */
 }
 
 
@@ -766,7 +752,8 @@ button:hover {
   font-size: 30px;
   border-radius: 1%;
   transition: background-color 0.3s;
-  background-color: var(--button-color);;
+  background-color: var(--button-color);
+  border: 2px solid var(--border-color);
 } 
 
 .arrow:hover {
@@ -816,22 +803,16 @@ button:hover {
     /* justify-content: flex-start; */
     justify-content: space-around;
     padding-top: 0;
-    /* border: 2px solid green; */
   }
 
   .image-gallery {
     display: flex; /* @@@ Change to flexbox for better layout control */
     flex-direction: column; /* @@@ Stack images vertically */
     gap: 10px;
-    /* margin-bottom: 400px; */
-    /* align-items: center; */
-  /* border: 2px solid blue; */
-  min-width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 0;
-
-
+    min-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0;
   }
 
   .image-item {
@@ -839,8 +820,6 @@ button:hover {
     /* max-width: 130% !important;  */
   /* border: 2px solid red; */
   /* padding-left: 50px; */
-  
-
   }
 
   .image-item:nth-child(n+2) {
@@ -863,14 +842,13 @@ button:hover {
   .text-content {
     padding: 5%;
     padding-left: 5%;
-    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .description {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     margin: 0;
   }
 
