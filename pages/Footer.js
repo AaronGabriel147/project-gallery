@@ -47,7 +47,7 @@ export default function Footer() {
             <li class="footer-link">Projects</li>
         </Link>
 
-        <a class="link" id="contact-me" href="mailto:aarongabriel147@gmail.com">Contact Me</a>
+        <a class="link footer-link" id="contact-me" href="mailto:aarongabriel147@gmail.com">Contact</a>
     </ul>
 
     <div class="footer-logo-container">

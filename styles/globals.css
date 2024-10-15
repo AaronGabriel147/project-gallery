@@ -5,8 +5,34 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,100;1,200;1,500&display=swap');
 
+/* LOGO color: #43cbe8 */
+:root {
+  --BG-1: #565249;
+  --BG-2: #00a0ae;
+  --border-color: #393532;
+  --button-color: #494541;
+  --color-1: #ffffff;
+  --logo-color: #43cbe8
+
+  
+  --scrollbar-bg: #282c34;
+  --scrollbar-thumb: #bbbbbb59;
+  --scrollbar-thumb-hover: #ffffff;
+}
+
+/* taupe #54463a */
+
+/* EXAMPLE: background-color: var(--BG-1); 
+var(--BG-1);
+var(--BG-2);
+var(--button-color);
+var(--color-1);
+var(--logo-color);
+*/
+
+
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 13px;
 }
 
 ::-webkit-scrollbar-track {
@@ -15,6 +41,7 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: #bbbbbb59;
+  background-color: var(--BG-2);
   border-radius: 1.25rem;
   border: 2px solid transparent;
   background-clip: content-box;
@@ -141,13 +168,11 @@ p {
 
   background: rgb(3,223,255);
   /* background: linear-gradient(90deg, rgba(3,223,255,1) 2%, rgb(2, 187, 255) 100%);  */
+  background: var(--BG-2);
 
 }
 
-.card:hover {
-  /* box-shadow: 0 3px 15px -3px rgba(44, 71, 226, 0.496); */
-  transition: .8s ease-in-out, box-shadow .1s ease-in-out;
-}
+
 
 .card-description-text {
   margin-left: 1rem;
@@ -180,10 +205,14 @@ img {
   transition: .2s ease-in-out, box-shadow .1s ease-in-out;
 }
 
+
+
+
 #contact-me:hover {
-  color: rgba(100, 100, 100, 0.748);
-  text-shadow: 0px 7px 8px rgba(0, 0, 0, 0.16);
+  color: rgba(255, 255, 255, 0.695);
+  text-shadow: 0px 7px 8px rgba(0, 0, 0, 0.325);
 }
+
 
 .nav {
   /* border: solid grey; */
@@ -209,10 +238,9 @@ img {
   /* background-color: #382521; */
   /* Color picked from the phoenix image */
   background-color: #574e45;
-  
-  
+
   background-color: #565249;
-  
+  background-color: var(--BG-1);;
 }
 
 .nav-logo {
@@ -240,8 +268,8 @@ li {
 }
 
 li:hover {
-  color: rgba(100, 100, 100, 0.748);
-  text-shadow: 0px 7px 8px rgba(0, 0, 0, 0.16);
+  color: rgba(255, 255, 255, 0.695);
+  text-shadow: 0px 7px 8px rgba(0, 0, 0, 0.325);
 }
 
 
@@ -265,7 +293,7 @@ button {
   padding: 10px 30px;
   text-shadow: 1px 1px 3px transparent;
   transition: .2s ease-in-out;
-  background-color: #382521;
+  background-color: var(--button-color);
 }
 
 button:hover {
@@ -282,15 +310,16 @@ button:hover {
   font-size: 16px;
   border-radius: 5px;
   margin-top: 10px;
-  border: 1px solid hsla(0, 0%, 75%, .417);
+  /* border: 1px solid hsla(0, 0%, 75%, .417); */
   border-radius: 16px 0;
   font-size: 1rem;
   margin-top: 2rem;
   padding: 10px 30px;
   text-shadow: 1px 1px 3px transparent;
   transition: .2s ease-in-out;
-  background-color: #382521;
-  border: 2px solid cyan;
+  /* background-color: #382521; */
+  /* border: 2px solid var(--border-color); */
+  background-color: var(--button-color);
   min-width: 150px;
   text-align: center;
 }
@@ -299,8 +328,6 @@ button:hover {
   background-color: #2e1e1a; /* Darken the button color slightly to provide a clear visual contrast */
   transform: translateY(-3px); /* Adds a slight lift effect for better interactivity */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow to give the button a more elevated appearance */
-
-  color: rgba(17, 17, 218, 0.746);
   transition: .2s ease-in-out, box-shadow .1s ease-in-out;
 }
 
@@ -532,7 +559,10 @@ button:hover {
 
 .footer-link {
   margin-bottom: 10px;
+  color: var(--color-1);
 }
+
+
 
 .footer-container {
   display: flex;
@@ -636,13 +666,14 @@ button:hover {
    background-color: #ececec;
   /* background: rgb(32,170,190); */
   /* background: linear-gradient(324deg, rgba(32,170,190,1) 17%, rgba(18,199,226,1) 84%, rgba(129,216,208,1) 100%); */
-
-/* Munsell Blue */
-background-color: #00a0ae;
-
-background: rgb(3,223,255);
-  background: linear-gradient(90deg, rgba(3,223,255,1) 2%, rgb(2, 187, 255) 100%); 
-
+  /* Munsell Blue */
+  background-color: #00a0ae;
+  background: rgb(3,223,255);
+  /* background: linear-gradient(90deg, rgba(3,223,255,1) 2%, rgb(2, 187, 255) 100%); */
+  background-color: var(--BG-2);;
+/* --BG-1: #574e45;
+  --BG-2: #382521;
+  --button-color: #00a0ae; */
 }
 
 .text-content {
@@ -735,7 +766,7 @@ background: rgb(3,223,255);
   font-size: 30px;
   border-radius: 1%;
   transition: background-color 0.3s;
-  background-color: #382521;
+  background-color: var(--button-color);;
 } 
 
 .arrow:hover {

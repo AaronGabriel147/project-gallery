@@ -80,18 +80,6 @@ const imageCards = [
         code: 'https://stackblitz.com/edit/react-ts-fxsvjb?file=App.tsx'
     },
     {
-        title: 'Re-created r/space by accessing the Reddit API.',
-        image: rSPACE,
-        url: 'https://react-ts-avhpwa.stackblitz.io/',
-        code: 'https://stackblitz.com/edit/react-ts-avhpwa?file=App.tsx'
-    },
-    {
-        title: 'A RESTful API call which fetches data with a toggle to show or hide data.',
-        image: rickNmorty,
-        url: 'https://react-5zsf81.stackblitz.io/',
-        code: 'https://stackblitz.com/edit/react-5zsf81?file=src%2FApp.js'
-    },
-    {
         title: 'A RESTful API call which fetches data with a toggle to show or hide data.',
         image: imgfyc,
         url: 'https://react-ts-klpzms.stackblitz.io/',
@@ -110,6 +98,20 @@ const imageCards = [
         code: ''
     },
 ];
+
+
+//      {
+//     title: 'Re-created r/space by accessing the Reddit API.',
+//     image: rSPACE,
+//     url: 'https://react-ts-avhpwa.stackblitz.io/',
+//     code: 'https://stackblitz.com/edit/react-ts-avhpwa?file=App.tsx'
+// },
+// {
+//     title: 'A RESTful API call which fetches data with a toggle to show or hide data.',
+//     image: rickNmorty,
+//     url: 'https://react-5zsf81.stackblitz.io/',
+//     code: 'https://stackblitz.com/edit/react-5zsf81?file=src%2FApp.js'
+// },
 
 
 
