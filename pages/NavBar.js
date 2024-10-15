@@ -8,7 +8,7 @@ function NavBar() {
     return (
         <div className="nav">
 
-<div class="nav-logo">
+<div class="nav-logo-and-text-cont">
     <Image
         src={phoenixLogo}
         alt='project'
@@ -18,6 +18,7 @@ function NavBar() {
         priority
         width={70}
     />
+    <h2 class="my-name">Aaron Gabriel</h2>
 </div>
 
             <ul className="nav">

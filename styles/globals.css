@@ -4,6 +4,14 @@
 /* https://codepen.io/AaronGabriel/pen/yLKwjEd */
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,100;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherish&display=swap');
+
+
+/* 
+  font-family: "Cherish", cursive;
+  font-weight: 400;
+  font-style: normal; */
+
 
 /* LOGO color: #43cbe8 */
 :root {
@@ -213,13 +221,31 @@ img {
 
 
 .nav {
+  left: 0;
+  top: 0;
+  font-weight: 500;
+  color: rgb(231, 231, 231);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--brown-light);
+  padding-left: 2%;
+}
+
+
+
+
+.nav {
   /* border: solid grey; */
   /* background-color: rgb(121, 132, 148); */
   /* border-bottom: solid 1px rgba(238, 237, 237, 0.858); */
   /* position: absolute; */
+  /* box-shadow: 0 3px 15px -3px rgba(150, 150, 150, 0.266); */
   left: 0;
   top: 0;
-  /* box-shadow: 0 3px 15px -3px rgba(150, 150, 150, 0.266); */
   font-weight: 500;
   color: rgb(231, 231, 231);
   width: 100%;
@@ -241,10 +267,44 @@ img {
   background-color: var(--BG-1);;
 }
 
-.nav-logo {
+.nav-logo-and-text-cont {
   /* border: 2px solid red; */
   margin-left: 2%;
+  display: flex;
+  align-items: center;
+  min-width: 280px;
 }
+
+
+.my-name {
+  /* border: 2px solid blue; */
+  font-family: "Cherish", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 14px;
+  /* font-size: auto; */
+  /* min-width: 100%; */
+  font-size: calc(3vw + 10px);
+  /* font-size: 40px; */
+  width: 100%;
+  white-space: nowrap; 
+  overflow: hidden; 
+  /* border: 2px solid red; */
+}
+
+
+@media (max-width: 500px) {
+
+  .nav-logo-and-text-cont {
+    min-width: 100px;
+  }
+
+  .my-name {
+    display: none;
+  }
+}
+
+
 
 ul {
   padding-right: 20px;
