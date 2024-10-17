@@ -68,22 +68,10 @@ const imageCards = [
         code: 'https://codepen.io/AaronGabriel/pen/yLKwjEd'
     },
     {
-        title: 'A re-usable React table connected to a Node Express API I built and deployed to Heroku.',
-        image: FYCtable,
-        url: 'https://calm-marigold-e6cec9.netlify.app/',
-        code: 'https://github.com/AaronGabriel147/firebase-storage/tree/template/src'
-    },
-    {
         title: 'CRUD operations, GET and DELETE RESTful API calls with axios.',
         image: apiWITHdelete,
         url: 'https://react-ts-fxsvjb.stackblitz.io/',
         code: 'https://stackblitz.com/edit/react-ts-fxsvjb?file=App.tsx'
-    },
-    {
-        title: 'A RESTful API call which fetches data with a toggle to show or hide data.',
-        image: imgfyc,
-        url: 'https://react-ts-klpzms.stackblitz.io/',
-        code: 'https://stackblitz.com/edit/react-ts-klpzms?file=App.tsx'
     },
     {
         title: 'A Figma presentation.',
@@ -100,6 +88,7 @@ const imageCards = [
 ];
 
 
+
 //      {
 //     title: 'Re-created r/space by accessing the Reddit API.',
 //     image: rSPACE,
@@ -111,6 +100,21 @@ const imageCards = [
 //     image: rickNmorty,
 //     url: 'https://react-5zsf81.stackblitz.io/',
 //     code: 'https://stackblitz.com/edit/react-5zsf81?file=src%2FApp.js'
+// },
+
+// {
+//     title: 'A re-usable React table connected to a Node Express API I built and deployed to Heroku.',
+//     image: FYCtable,
+//     url: 'https://calm-marigold-e6cec9.netlify.app/',
+//     code: 'https://github.com/AaronGabriel147/firebase-storage/tree/template/src'
+// },
+
+
+// {
+//     title: 'A RESTful API call which fetches data with a toggle to show or hide data.',
+//     image: imgfyc,
+//     url: 'https://react-ts-klpzms.stackblitz.io/',
+//     code: 'https://stackblitz.com/edit/react-ts-klpzms?file=App.tsx'
 // },
 
 

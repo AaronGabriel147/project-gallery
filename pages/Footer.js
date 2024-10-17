@@ -7,7 +7,6 @@ export default function Footer() {
     return (
         <div className="about-footer">
 
-
         <div className="outer-wrapper">
             <div className="inner-wrapper">
                 <div className="bg-primary item-0"></div>
@@ -35,43 +34,44 @@ export default function Footer() {
                 <div className="bg-primary item-22"></div>
                 <div className="bg-primary item-23"></div>
 
+                <div class="footer-container">
 
-<div class="footer-container">
+                    <ul class="footer-link-container link">
+                        <Link href="/about">
+                            <li class="footer-link">About</li>
+                        </Link>
 
-    <ul class="footer-link-container link">
-        <Link href="/about">
-            <li class="footer-link">About</li>
-        </Link>
+                        <Link href="/">
+                            <li class="footer-link">Projects</li>
+                        </Link>
 
-        <Link href="/">
-            <li class="footer-link">Projects</li>
-        </Link>
+                        <a class="link footer-link" id="contact-me" href="mailto:aarongabriel147@gmail.com">Contact</a>
+                    </ul>
 
-        <a class="link footer-link" id="contact-me" href="mailto:aarongabriel147@gmail.com">Contact</a>
-    </ul>
+                    <div class="footer-logo-container">
+                        <Image
+                            src={phoenixLogo}
+                            alt='project'
+                            // placeholder='blur'
+                            layout="responsive"
+                            quality="100"
+                            priority
+                            width={200}
+                        />
 
-    <div class="footer-logo-container">
-        <Image
-            src={phoenixLogo}
-            alt='project'
-            // placeholder='blur'
-            layout="responsive"
-            quality="100"
-            priority
-            width={200}
-        />
-    </div>
+                        <h2 class="my-name-footer">Aaron Gabriel</h2>
+                        <p class="my-name-footer-sub-txt">Full Stack Web Developer</p>
+                        
+
+                    </div>
+
+                </div >
+
+                <p class="footer-txt">@2024 Created by Aaron Gabriel</p>
 
 
-</div >
-    <p class="footer-txt">@2024 Created by Aaron Gabriel</p>
-
-
+                </div>
             </div>
         </div>
-            
-
-            
-        </div >
     )
 }

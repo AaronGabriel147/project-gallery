@@ -24,7 +24,7 @@
   --border-color: #43cbe8;
   --button-color: #494541;
   --color-1: #ffffff;
-  --logo-color: #43cbe8
+  --logo-color: #43cbe8;
 
   
   --scrollbar-bg: #282c34;
@@ -44,7 +44,7 @@ var(--logo-color);
 
 
 ::-webkit-scrollbar {
-  width: 13px;
+  width: 16px;
 }
 
 ::-webkit-scrollbar-track {
@@ -272,28 +272,23 @@ img {
   margin-left: 2%;
   display: flex;
   align-items: center;
-  min-width: 280px;
+  min-width: 260px;
 }
 
 
 .my-name {
-  /* border: 2px solid blue; */
   font-family: "Cherish", cursive;
   font-weight: 400;
   font-style: normal;
   margin-left: 14px;
-  /* font-size: auto; */
-  /* min-width: 100%; */
-  font-size: calc(3vw + 10px);
-  /* font-size: 40px; */
+  font-size: 40px;
   width: 100%;
   white-space: nowrap; 
   overflow: hidden; 
-  /* border: 2px solid red; */
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 470px) {
 
   .nav-logo-and-text-cont {
     min-width: 100px;
@@ -604,13 +599,14 @@ button:hover {
 
 .footer-txt {
   color: var(--color-1);
-  font-size: .9rem;
+  font-size: 12px;
   margin: 0;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 1rem;
   padding-top: 40px;
   font-family: 'IBM Plex Mono', monospace;
+  font-weight: 200;
 }
 
 .footer-link {
@@ -629,7 +625,42 @@ button:hover {
   padding-top: 50px;
 }
 
-@media (max-width: 400px) {
+.footer-logo-container {
+  /* border: 1px solid rgb(177, 215, 203); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-name-footer {
+  font-family: "Cherish", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  width: 100%;
+  white-space: nowrap; 
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
+
+.my-name-footer-sub-txt {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  white-space: nowrap; 
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  line-height: 1;
+}
+
+
+
+
+@media (max-width: 450px) {
   .footer-container {
     flex-direction: column;
   }
@@ -637,7 +668,6 @@ button:hover {
   .footer-logo-container {
     margin-top: 50px;
   }
-
 
 }
 
@@ -838,10 +868,16 @@ button:hover {
     flex-direction: column; /* @@@ Stack images vertically */
     gap: 10px;
     margin-bottom: 90px;
+    min-width: 50%;
   }
 
   .image-item {
     width: 100%; /* @@@ Ensure images take up full width of container */
+  }
+
+
+  .image-item:nth-child(2) {
+    display: none; /* Hide the second image for smaller screens */
   }
 
   .image-item:nth-child(3) {
