@@ -67,7 +67,7 @@ export default function Footer() {
 </li>
 
 <li className="footer-link"> {/* @@@@@@@@@@ Update contact link to use li */}
-    <a className="link footer-link" id="contact-me" href="mailto:aarongabriel147@gmail.com">Contact</a>
+    <a className="link footer-link" id="contact-me" href="mailto:aarongabriel147@gmail.com">Email Me</a>
 </li>
                     
                     </ul>
