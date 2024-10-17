@@ -14,9 +14,11 @@ export default function About() {
     return (
         <div className="app">
             <NavBar />
-            <h1 id="about-h1">About</h1>
+            {/* <h1 id="about-h1">About</h1> */}
 
-            <div className="card about-card">
+            <div id="about-hero" className="card about-card about-hero">
+                <h1 id="about-h1">About Me</h1>
+
                 <Image
                     id="me3"
                     src={me3}
@@ -35,7 +37,7 @@ export default function About() {
             </div>
 
             {/* LinkedIn */}
-            <div className="card">
+            <div className="card about-card">
                 <a href="https://www.linkedin.com/in/aaron-gabriel-web-dev/" target="blank">
                     <Image
                         src={newBanner}
@@ -53,7 +55,7 @@ export default function About() {
             </div>
 
             {/* GitHub */}
-            <div className="card">
+            <div className="card about-card">
                 <a href="https://github.com/AaronGabriel147" target="blank">
                     <Image
                         src={gh}

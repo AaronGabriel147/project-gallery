@@ -433,6 +433,9 @@ button:hover {
 /*  ~~~~~~ ABOUT ME ~~~~~~ */
 
 
+
+
+
 .about-card {
   /* height: 100%;
   margin-top: 2rem;
@@ -446,15 +449,16 @@ button:hover {
     0 -2px 6px -4px rgb(0 0 0 / 0.1);
   backdrop-filter: saturate(10%) blur(7px); */
 
-  padding-left: 10%;
-  padding-right: 10%;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+
 }
 
 
 
 .about-card p {
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .about-me-button {
@@ -463,29 +467,58 @@ button:hover {
 
 
 
-
-
 .about-footer {
   width: 100%;
-  /* border: solid red; */
-  /* position: absolute; */
-  /* bottom: 0; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* padding-bottom: 1rem; */
   margin-top: 1rem;
   padding-top: 2rem;
+}
 
-  /* border: 2px solid red; */
-  /* background: #565249; */
-  /* background: #815050; */
+#about-h1 {
+  color: white;
+  font-size: 48px; /*  Makes header size responsive  */
+  background-image: linear-gradient(#00d9ff, rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+}
 
+.about-hero {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 0;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  
+  background: linear-gradient(
+		109.6deg,
+		rgb(2, 37, 54) 11.2%,
+		rgb(11, 132, 145) 91.1%
+	);
+  background-size: 400% 400%;
+	animation: gradient 45s ease infinite; /* Animation speed is controlled here  */
 }
 
 
-
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  
 
 
 
@@ -763,10 +796,7 @@ button:hover {
     /* box-shadow: 0 3px 15px -3px rgba(0, 0, 0, 0.161); */
   }
 
-  .about-card {
-    width: 93%;
-  }
-
+ 
 
 }
 
