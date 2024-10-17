@@ -24,7 +24,7 @@ export default function Home() {
       <HeroSection />
 
       <h1>Projects</h1>
-      <div className="card">
+      {/* <div className="card">
         <Image
           src={imgGal}
           alt='project'
@@ -39,7 +39,7 @@ export default function Home() {
           <a class="link card-btn" href="https://github.com/AaronGabriel147/firebase-storage" target="blank">code</a>
         </div>
 
-      </div>
+      </div> */}
 
       <ImageCards />
       <Footer />

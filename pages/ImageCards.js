@@ -18,6 +18,11 @@ import portfolio from '../public/portfolio.jpg';
 
 import redditArt from '../public/redditArt.png';
 import lectric from '../public/lectric.png';
+import imgGal from '../public/imgGal.jpg';
+
+import petmakerDesktopSS from '../public/petmakerDesktopSS.png';
+import slice from '../public/slice.png';
+import gnp from '../public/gnp.png';
 
 
 
@@ -27,26 +32,61 @@ import lectric from '../public/lectric.png';
 // Add source key value pair:
 const imageCards = [
     {
+        title: "I worked with Lectric for about a year, developing custom Shopify sections to enhance their store's functionality and user experience.",
+        image: lectric,
+        url: 'https://lectricebikes.com/',
+        code: ''
+    },
+    {
+        title: 'A full stack React Firebase storage application that stores and displays images in a document database.',
+        image: imgGal,
+        url: 'https://firebase-storage-three.vercel.app/',
+        code: 'https://github.com/AaronGabriel147/firebase-storage'
+    },
+
+
+    {
+        title: 'I collaborated with a team at PetMaker in 2023 to build their first website, developing custom Shopify sections to align with the Figma design presentation.',
+        image: petmakerDesktopSS,
+        url: 'https://www.petmakerbrand.com/',
+        code: ''
+    },
+
+
+    {
         title: 'A full stack React, Node, Express, PostGreSQL web app, which allows users to securely log in with a hashed password and a JSON Web Token. Users are then able to access authenticated routes',
         image: plants,
         url: '',
         code: 'https://github.com/water-my-plantz',
     },
 
+
+
+
     {
-        title: 'Worked for Lectric for about 1 year, mostly creating custom Shopify sections.',
-        image: lectric,
-        url: 'https://lectricebikes.com/',
+        title: 'I developed custom Shopify sections and JavaScript logic for Slice in 2022, enhancing shopping cart functionality and driving increased sales through promo banners and checkout upsells.',
+        image: slice,
+        url: 'https://www.sliceproducts.com/',
         code: ''
     },
-
-
     {
         title: 'A full stack React, Node, Express, PostGreSQL web application. This is an ancient philosophy app which allows users to create, read, update, and delete (CRUD) quotes.',
         image: thestoics,
         url: '',
         code: 'https://github.com/The-Stoics'
     },
+
+
+
+    {
+        title: "I worked as one of two developers on Great Northern Popcorn's first website in 2022, contributing to the full development process from start to launch.",
+        image: gnp,
+        url: 'https://www.greatnorthernpopcorn.com/',
+        code: ''
+    },
+
+
+
     {
         title: 'A React web app that filters images from reddit and displays them in a cleaner environment than reddit.',
         image: lurker2,
@@ -60,7 +100,7 @@ const imageCards = [
         code: 'https://github.com/AaronGabriel147/firebase-react-playground'
     },
     {
-        title: "My portfolio site with GIF's showing off some of my full stack projects. This site has an emphasis on styling, it's a whole mood.",
+        title: "My original portfolio site with GIF's showing off some of my full stack projects.",
         image: portfolio,
         url: 'https://aaron-gabriels-portfolio.vercel.app/',
         code: 'https://github.com/AaronGabriel147/newPortfolio'

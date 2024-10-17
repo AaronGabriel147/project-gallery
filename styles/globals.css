@@ -185,9 +185,15 @@ p {
 
 
 .card-description-text {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-top: 30px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  margin-left: 10%;
+  margin-right: 10%;
 }
+
+
+
 
 
 img {
@@ -316,6 +322,15 @@ a {
   .my-name {
     display: none;
   }
+
+
+  .card-description-text {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+
 }
 
 
@@ -403,7 +418,7 @@ button:hover {
 }
 
 .link-cont {
-  padding-bottom: 10px;
+  margin-bottom: 20px;
   /* border: 2px solid red; */
   width: 100%;
   display: flex;
