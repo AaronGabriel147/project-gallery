@@ -106,12 +106,6 @@ const imageCards = [
         code: 'https://codepen.io/AaronGabriel/pen/ZExdjNJ'
     },
     {
-        title: 'Animated background and gradient text with CSS.',
-        image: arete,
-        url: 'https://codepen.io/AaronGabriel/full/yLKwjEd',
-        code: 'https://codepen.io/AaronGabriel/pen/yLKwjEd'
-    },
-    {
         title: 'Graphic art with Figma, a banner that I created for LinkedIn.',
         image: banner,
         url: 'https://www.figma.com/file/LFB2DAGxtT3v2KJSvqXsDx/Untitled',
@@ -120,6 +114,13 @@ const imageCards = [
 ];
 
 
+
+// {
+//     title: 'Animated background and gradient text with CSS.',
+//     image: arete,
+//     url: 'https://codepen.io/AaronGabriel/full/yLKwjEd',
+//     code: 'https://codepen.io/AaronGabriel/pen/yLKwjEd'
+// },
 
 // {
 //     title: "My original portfolio site with GIF's showing off some of my full stack projects.",
