@@ -75,18 +75,12 @@ const imageCards = [
         url: '',
         code: 'https://github.com/The-Stoics'
     },
-
-
-
     {
         title: "I worked as one of two developers on Great Northern Popcorn's first website in 2022, contributing to the full development process from start to launch.",
         image: gnp,
         url: 'https://www.greatnorthernpopcorn.com/',
         code: ''
     },
-
-
-
     {
         title: 'A React web app that filters images from reddit and displays them in a cleaner environment than reddit.',
         image: lurker2,

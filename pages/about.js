@@ -4,6 +4,7 @@ import Image from 'next/future/image';
 import me3 from '../public/me3.jpg';
 import newBanner from '../public/newBanner.jpg';
 import newGithub from '../public/newGithub.jpg';
+import gh from '../public/gh.png';
 
 
 
@@ -15,7 +16,7 @@ export default function About() {
             <NavBar />
             <h1 id="about-h1">About</h1>
 
-            <div className="about-card">
+            <div className="card about-card">
                 <Image
                     id="me3"
                     src={me3}
@@ -34,7 +35,7 @@ export default function About() {
             </div>
 
             {/* LinkedIn */}
-            <div className="about-card">
+            <div className="card">
                 <a href="https://www.linkedin.com/in/aaron-gabriel-web-dev/" target="blank">
                     <Image
                         src={newBanner}
@@ -52,10 +53,10 @@ export default function About() {
             </div>
 
             {/* GitHub */}
-            <div className="about-card">
+            <div className="card">
                 <a href="https://github.com/AaronGabriel147" target="blank">
                     <Image
-                        src={newGithub}
+                        src={gh}
                         alt='project'
                         placeholder='blur'
                         layout="responsive"
