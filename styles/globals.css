@@ -697,6 +697,16 @@ button:hover {
 
 }
 
+@media (max-width: 600px) {
+  li {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+
+
 
 #me3 {
   margin-top: 2rem;
