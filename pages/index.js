@@ -14,7 +14,7 @@ export default function Home() {
     <div className="app">
       <Head>
         <title>Aaron Gabriel</title>
-        <meta name="description" content="A gallery of all of my web dev projects." />
+        <meta name="description" content="A gallery of my web dev projects." />
         <link rel="icon" href="/1.png" />
       </Head>
 
