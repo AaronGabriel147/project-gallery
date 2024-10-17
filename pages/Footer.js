@@ -2,8 +2,13 @@ import Link from 'next/link'
 import Image from 'next/future/image'
 import phoenixLogo from '../public/phoenixLogo.png';
 
+import { useRouter } from 'next/router'; // @@@@@@@@@@ Import useRouter hook
+
 
 export default function Footer() {
+
+    const router = useRouter(); // @@@@@@@@@@ Get the router instance to determine current route
+
     return (
         <div className="about-footer">
 
@@ -37,15 +42,34 @@ export default function Footer() {
                 <div class="footer-container">
 
                     <ul class="footer-link-container link">
-                        <Link href="/about">
+
+                        {/* <Link href="/about">
                             <li class="footer-link">About</li>
                         </Link>
-
                         <Link href="/">
                             <li class="footer-link">Projects</li>
                         </Link>
-
                         <a class="link footer-link" id="contact-me" href="mailto:aarongabriel147@gmail.com">Contact</a>
+                    
+                     */}
+
+
+<li className={router.pathname === "/about" ? "active-link-footer" : "footer-link"}> {/* @@@@@@@@@@ Add active class conditionally */}
+    <Link href="/about" passHref>
+        About
+    </Link>
+</li>
+
+<li className={router.pathname === "/" ? "active-link-footer" : "footer-link"}> {/* @@@@@@@@@@ Add active class conditionally */}
+    <Link href="/" passHref>
+        Projects
+    </Link>
+</li>
+
+<li className="footer-link"> {/* @@@@@@@@@@ Update contact link to use li */}
+    <a className="link footer-link" id="contact-me" href="mailto:aarongabriel147@gmail.com">Contact</a>
+</li>
+                    
                     </ul>
 
                     <div class="footer-logo-container">

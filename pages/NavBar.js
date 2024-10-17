@@ -2,9 +2,12 @@ import Link from 'next/link'
 import Image from 'next/future/image'
 import phoenixLogo from '../public/phoenixLogo.png';
 
-
+import { useRouter } from 'next/router'; // @@@@@@@@@@ Import useRouter hook
 
 function NavBar() {
+
+    const router = useRouter(); // @@@@@@@@@@ Get the router instance to determine current route
+
     return (
         <div className="nav">
 
@@ -23,13 +26,26 @@ function NavBar() {
 
             <ul className="nav">
 
-                <Link href="/">
+                {/* <Link href="/">
                     <li>Projects</li>
                 </Link>
 
                 <Link href="/about">
                     <li>About</li>
-                </Link>
+                </Link> */}
+
+<li className={router.pathname === "/" ? "active-link" : ""}> {/* @@@@@@@@@@ Move Link inside li to fix error */}
+    <Link href="/" passHref>
+        Projects
+    </Link>
+</li>
+
+<li className={router.pathname === "/about" ? "active-link" : ""}> {/* @@@@@@@@@@ Move Link inside li to fix error */}
+    <Link class="nav-link-txt" href="/about" passHref>
+        About
+    </Link>
+</li>
+
             </ul>
         </div >
     )
