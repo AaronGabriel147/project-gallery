@@ -774,7 +774,8 @@ button:hover {
   align-items: flex-start;
   padding: 1%;
   padding-top: 70px;
-  min-height: 70vh;
+  /* min-height: 70vh; */
+  min-height: 650px;
   background-color: #f6f6f6;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative; /* @@@ Ensure the hero section is relative for positioning the arrows */

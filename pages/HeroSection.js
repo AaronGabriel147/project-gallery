@@ -13,22 +13,22 @@ import codeHeroSectionSS from '../public/codeHeroSectionSS.png';
 import GNPfinalGIF from '../public/GNPfinalGIF.gif';
 import petmakerGIF from '../public/petmakerGIF.gif';
 import tuttos from '../public/tuttos.png';
-
 import petmakerDesktopSS from '../public/petmakerDesktopSS.png';
 import sefiaTemplate from '../public/sefiaTemplate.png';
+import FYCtable from '../public/FYCtable.jpg';
 
 
 
 const slides = [
     { 
         title: "Meet Aaron Gabriel",
-        description: "With a passion for web development, I specialize in frontend & backend tech. From clean, responsive websites to dynamic web apps, I leverage my expertise in React.js and Shopify development.",
+        description: "Based in Folsom, California, I have 4 years of experience in full-stack web development, specializing in e-commerce. I create clean, responsive websites and dynamic web apps, leveraging my expertise in React.js and Shopify.",
         images: [xfolsom, codeHeroSectionSS, newBanner]
     },
     { 
         title: "Full Stack Solutions",
         description: "I specialize in building full-stack applications, handling both frontend and backend seamlessly. My skills include Node.js, Express, and database management with PostgreSQL.",
-        images: [sefiaTemplate, plants, petmakerDesktopSS]
+        images: [sefiaTemplate, plants, FYCtable]
     },
     {
         title: "E-Commerce Expert",

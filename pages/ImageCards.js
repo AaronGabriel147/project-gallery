@@ -31,60 +31,60 @@ const imageCards = [
         url: '',
         code: 'https://github.com/water-my-plantz',
     },
-    // {
-    //     title: 'A full stack React, Node, Express, PostGreSQL web application. This is an ancient philosophy app which allows users to create, read, update, and delete (CRUD) quotes.',
-    //     image: thestoics,
-    //     url: '',
-    //     code: 'https://github.com/The-Stoics'
-    // },
-    // {
-    //     title: 'A React web app that filters images from reddit and displays them in a cleaner environment than reddit.',
-    //     image: lurker2,
-    //     url: 'https://lurker-five.vercel.app/',
-    //     code: 'https://github.com/AaronGabriel147/lurker'
-    // },
-    // {
-    //     title: "A full stack React Firebase web app with a document database and CRUD operations. This web app is for saving any text, notes, todo's, etc. ",
-    //     image: todoFULL,
-    //     url: 'https://firebase-react-playground.vercel.app/',
-    //     code: 'https://github.com/AaronGabriel147/firebase-react-playground'
-    // },
-    // {
-    //     title: "My portfolio site with GIF's showing off some of my full stack projects. This site has an emphasis on styling, it's a whole mood.",
-    //     image: portfolio,
-    //     url: 'https://aaron-gabriels-portfolio.vercel.app/',
-    //     code: 'https://github.com/AaronGabriel147/newPortfolio'
-    // },
-    // {
-    //     title: 'A set of React challenges that I created, which includes, form validation, API fetching, and ascynchronous JavaScript.',
-    //     image: reactCHALLENGES,
-    //     url: 'https://codepen.io/AaronGabriel/full/ZExdjNJ',
-    //     code: 'https://codepen.io/AaronGabriel/pen/ZExdjNJ'
-    // },
-    // {
-    //     title: 'Animated background and gradient text with CSS.',
-    //     image: arete,
-    //     url: 'https://codepen.io/AaronGabriel/full/yLKwjEd',
-    //     code: 'https://codepen.io/AaronGabriel/pen/yLKwjEd'
-    // },
-    // {
-    //     title: 'CRUD operations, GET and DELETE RESTful API calls with axios.',
-    //     image: apiWITHdelete,
-    //     url: 'https://react-ts-fxsvjb.stackblitz.io/',
-    //     code: 'https://stackblitz.com/edit/react-ts-fxsvjb?file=App.tsx'
-    // },
-    // {
-    //     title: 'A Figma presentation.',
-    //     image: figmaStoics,
-    //     url: 'https://www.figma.com/file/1ilZj7gIRRZy6RAZNFXHTp/Stoics?node-id=0%3A1',
-    //     code: ''
-    // },
-    // {
-    //     title: 'Graphic art with Figma, a banner that I created for LinkedIn.',
-    //     image: banner,
-    //     url: 'https://www.figma.com/file/LFB2DAGxtT3v2KJSvqXsDx/Untitled',
-    //     code: ''
-    // },
+    {
+        title: 'A full stack React, Node, Express, PostGreSQL web application. This is an ancient philosophy app which allows users to create, read, update, and delete (CRUD) quotes.',
+        image: thestoics,
+        url: '',
+        code: 'https://github.com/The-Stoics'
+    },
+    {
+        title: 'A React web app that filters images from reddit and displays them in a cleaner environment than reddit.',
+        image: lurker2,
+        url: 'https://lurker-five.vercel.app/',
+        code: 'https://github.com/AaronGabriel147/lurker'
+    },
+    {
+        title: "A full stack React Firebase web app with a document database and CRUD operations. This web app is for saving any text, notes, todo's, etc. ",
+        image: todoFULL,
+        url: 'https://firebase-react-playground.vercel.app/',
+        code: 'https://github.com/AaronGabriel147/firebase-react-playground'
+    },
+    {
+        title: "My portfolio site with GIF's showing off some of my full stack projects. This site has an emphasis on styling, it's a whole mood.",
+        image: portfolio,
+        url: 'https://aaron-gabriels-portfolio.vercel.app/',
+        code: 'https://github.com/AaronGabriel147/newPortfolio'
+    },
+    {
+        title: 'A set of React challenges that I created, which includes, form validation, API fetching, and ascynchronous JavaScript.',
+        image: reactCHALLENGES,
+        url: 'https://codepen.io/AaronGabriel/full/ZExdjNJ',
+        code: 'https://codepen.io/AaronGabriel/pen/ZExdjNJ'
+    },
+    {
+        title: 'Animated background and gradient text with CSS.',
+        image: arete,
+        url: 'https://codepen.io/AaronGabriel/full/yLKwjEd',
+        code: 'https://codepen.io/AaronGabriel/pen/yLKwjEd'
+    },
+    {
+        title: 'CRUD operations, GET and DELETE RESTful API calls with axios.',
+        image: apiWITHdelete,
+        url: 'https://react-ts-fxsvjb.stackblitz.io/',
+        code: 'https://stackblitz.com/edit/react-ts-fxsvjb?file=App.tsx'
+    },
+    {
+        title: 'A Figma presentation.',
+        image: figmaStoics,
+        url: 'https://www.figma.com/file/1ilZj7gIRRZy6RAZNFXHTp/Stoics?node-id=0%3A1',
+        code: ''
+    },
+    {
+        title: 'Graphic art with Figma, a banner that I created for LinkedIn.',
+        image: banner,
+        url: 'https://www.figma.com/file/LFB2DAGxtT3v2KJSvqXsDx/Untitled',
+        code: ''
+    },
 ];
 
 
