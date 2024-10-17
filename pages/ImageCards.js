@@ -94,20 +94,11 @@ const imageCards = [
         code: 'https://github.com/AaronGabriel147/firebase-react-playground'
     },
     {
-        title: "My original portfolio site with GIF's showing off some of my full stack projects.",
-        image: portfolio,
-        url: 'https://aaron-gabriels-portfolio.vercel.app/',
-        code: 'https://github.com/AaronGabriel147/newPortfolio'
-    },
-
-    {
         title: 'RESTful API calls with vanilla JaveScript, HTML, and CSS.',
         image: redditArt,
         url: 'https://js-la2jw3.stackblitz.io/',
         code: 'https://stackblitz.com/edit/js-la2jw3?file=index.html'
     },
-
-
     {
         title: 'A set of React challenges that I created, which includes, form validation, API fetching, and ascynchronous JavaScript.',
         image: reactCHALLENGES,
@@ -127,6 +118,15 @@ const imageCards = [
         code: ''
     },
 ];
+
+
+
+// {
+//     title: "My original portfolio site with GIF's showing off some of my full stack projects.",
+//     image: portfolio,
+//     url: 'https://aaron-gabriels-portfolio.vercel.app/',
+//     code: 'https://github.com/AaronGabriel147/newPortfolio'
+// },
 
 
 // {
