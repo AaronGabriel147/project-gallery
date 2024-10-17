@@ -8,12 +8,6 @@ import gh from '../public/gh.png';
 import portfolio from '../public/portfolio.jpg';
 
 
-// {
-//     title: "My original portfolio site with GIF's showing off some of my full stack projects.",
-//     image: portfolio,
-//     url: 'https://aaron-gabriels-portfolio.vercel.app/',
-//     code: 'https://github.com/AaronGabriel147/newPortfolio'
-// },
 
 
 export default function About() {
