@@ -17,13 +17,17 @@ import petmakerDesktopSS from '../public/petmakerDesktopSS.png';
 import sefiaTemplate from '../public/sefiaTemplate.png';
 import FYCtable from '../public/FYCtable.jpg';
 
+import folsomCa from '../public/folsomCa.png';
+
+
+
 
 
 const slides = [
     { 
         title: "Meet Aaron Gabriel",
         description: "Based in Folsom, California, I have 4 years of experience in full-stack web development, specializing in e-commerce. I create clean, responsive websites and dynamic web apps, leveraging my expertise in React.js and Shopify.",
-        images: [xfolsom, codeHeroSectionSS, newBanner]
+        images: [folsomCa, codeHeroSectionSS, newBanner]
     },
     { 
         title: "Full Stack Solutions",

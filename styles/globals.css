@@ -81,6 +81,7 @@ var(--logo-color);
   font-family: roboto, sans-serif;
   list-style-type: none;
   /* border: 1px solid rgb(132, 93, 212); */
+  color: white;
 }
 
 body {
