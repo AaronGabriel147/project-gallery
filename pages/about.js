@@ -50,7 +50,7 @@ export default function About() {
         />
     </a>
 
-    <p>My original portfolio site with GIF's showing off some of my full stack projects.</p>
+    <p>My original portfolio site with GIFs showing off some of my full stack projects.</p>
 
     <a href="https://aaron-gabriels-portfolio.vercel.app/"
         target="blank">
