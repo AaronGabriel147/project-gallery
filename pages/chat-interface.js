@@ -50,10 +50,10 @@ const Chat = () => {
   return (
 
 
-    
-
-    <div className="app chat-section-bg">
+    <div className="app">
     <NavBar />
+
+    <div className="chat-section-bg">
     <div className="chat-container">
       <div className="chat-messages">
         {messages.map((m, index) => (
@@ -67,7 +67,7 @@ const Chat = () => {
         <input
           className="chat-input"
           type="text"
-          placeholder="Type your message here..."
+          placeholder="Ask me anything..."
           onChange={handleInputChange}
           value={input}
         />
@@ -77,7 +77,11 @@ const Chat = () => {
 
     </div>
 
+    </div>
+
       <Footer />
+
+
     </div>
   );
 };
