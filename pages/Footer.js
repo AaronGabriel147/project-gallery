@@ -54,19 +54,29 @@ export default function Footer() {
                      */}
 
 
+
+
+<li className={router.pathname === "/" ? "active-link-footer" : "footer-link"}> 
+    <Link href="/" passHref>
+        Home
+    </Link>
+</li>
+
 <li className={router.pathname === "/about" ? "active-link-footer" : "footer-link"}> {/* @@@@@@@@@@ Add active class conditionally */}
     <Link href="/about" passHref>
         About
     </Link>
 </li>
 
-<li className={router.pathname === "/" ? "active-link-footer" : "footer-link"}> {/* @@@@@@@@@@ Add active class conditionally */}
-    <Link href="/" passHref>
-        Projects
+<li className={router.pathname === "/chat-interface" ? "active-link-footer" : "footer-link"}> {/* @@@@@@@@@@ Add active class conditionally */}
+    <Link href="/chat-interface" passHref>
+        Chat
     </Link>
 </li>
 
-<li className="footer-link"> {/* @@@@@@@@@@ Update contact link to use li */}
+
+
+<li className="footer-link"> 
     <a className="link footer-link" id="contact-me" href="mailto:aarongabriel147@gmail.com">Email Me</a>
 </li>
                     

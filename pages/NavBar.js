@@ -36,13 +36,19 @@ function NavBar() {
 
 <li className={router.pathname === "/" ? "active-link" : ""}> {/* @@@@@@@@@@ Move Link inside li to fix error */}
     <Link href="/" passHref>
-        Projects
+        Home
     </Link>
 </li>
 
 <li className={router.pathname === "/about" ? "active-link" : ""}> {/* @@@@@@@@@@ Move Link inside li to fix error */}
     <Link class="nav-link-txt" href="/about" passHref>
         About
+    </Link>
+</li>
+
+<li className={router.pathname === "/chat-interface" ? "active-link" : ""}> {/* @@@@@@@@@@ Move Link inside li to fix error */}
+    <Link class="nav-link-txt" href="/chat-interface" passHref>
+        Chat
     </Link>
 </li>
 
