@@ -82,22 +82,21 @@ export default function Footer() {
                     
                     </ul>
 
-                    <div class="footer-logo-container">
-                        <Image
-                            src={phoenixLogo}
-                            alt='project'
-                            // placeholder='blur'
-                            layout="responsive"
-                            quality="100"
-                            priority
-                            width={200}
-                        />
-
-                        <h2 class="my-name-footer">Aaron Gabriel</h2>
-                        <p class="my-name-footer-sub-txt">Full Stack Web Developer</p>
-                        
-
-                    </div>
+                    <Link href="/">
+                        <div class="footer-logo-container">
+                            <Image
+                                src={phoenixLogo}
+                                alt='project'
+                                // placeholder='blur'
+                                layout="responsive"
+                                quality="100"
+                                priority
+                                width={200}
+                            />
+                            <h2 class="my-name-footer">Aaron Gabriel</h2>
+                            <p class="my-name-footer-sub-txt">Full Stack Web Developer</p>
+                        </div>
+                    </Link>
 
                 </div >
 

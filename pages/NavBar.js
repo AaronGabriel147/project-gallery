@@ -11,18 +11,20 @@ function NavBar() {
     return (
         <div className="nav">
 
-<div class="nav-logo-and-text-cont">
-    <Image
-        src={phoenixLogo}
-        alt='project'
-        // placeholder='blur'
-        layout="responsive"
-        quality="100"
-        priority
-        width={70}
-    />
-    <h2 class="my-name">Aaron Gabriel</h2>
-</div>
+            <Link href="/">
+                <div class="nav-logo-and-text-cont">
+                    <Image
+                        src={phoenixLogo}
+                        alt='project'
+                        // placeholder='blur'
+                        layout="responsive"
+                        quality="100"
+                        priority
+                        width={70}
+                    />
+                    <h2 class="my-name">Aaron Gabriel</h2>
+                </div>
+            </Link>
 
             <ul className="nav">
 
