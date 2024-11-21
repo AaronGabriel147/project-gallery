@@ -48,8 +48,8 @@ function NavBar() {
     </Link>
 </li>
 
-<li className={router.pathname === "/chat-interface" ? "active-link" : ""}> {/* @@@@@@@@@@ Move Link inside li to fix error */}
-    <Link class="nav-link-txt" href="/chat-interface" passHref>
+<li className={router.pathname === "/chat" ? "active-link" : ""}> {/* @@@@@@@@@@ Move Link inside li to fix error */}
+    <Link class="nav-link-txt" href="/chat" passHref>
         Chat
     </Link>
 </li>

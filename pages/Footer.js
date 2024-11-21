@@ -68,8 +68,8 @@ export default function Footer() {
     </Link>
 </li>
 
-<li className={router.pathname === "/chat-interface" ? "active-link-footer" : "footer-link"}> {/* @@@@@@@@@@ Add active class conditionally */}
-    <Link href="/chat-interface" passHref>
+<li className={router.pathname === "/chat" ? "active-link-footer" : "footer-link"}> {/* @@@@@@@@@@ Add active class conditionally */}
+    <Link href="/chat" passHref>
         Chat
     </Link>
 </li>
