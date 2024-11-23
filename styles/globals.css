@@ -1234,6 +1234,7 @@ button:hover {
 
   .chat-messages {
     height: 450px;
+    scrollbar-width: none;
     /* border: 2px solid red; */
   }
 
