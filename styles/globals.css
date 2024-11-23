@@ -1118,22 +1118,6 @@ button:hover {
 
 
 
-/* .user-message {
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 8px;
-  background-color: var(--BG-2);
-  border-radius: 15px;
-  margin-bottom: 5px;
-}
-
-.ai-message {
-  text-align: left;
-  padding: 8px;
-  background-color: #e2e3e5;
-  border-radius: 10px;
-  margin-bottom: 5px;
-} */
 
 
 /* General chat messages container */
@@ -1179,7 +1163,10 @@ button:hover {
 
 
 
-
+.user-message p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 
 
