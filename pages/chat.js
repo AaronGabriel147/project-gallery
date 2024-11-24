@@ -30,7 +30,7 @@ const Chat = () => {
 
   // Handle form submission when user sends a message
   const onSubmitHandler = async (e) => {
-    e.preventDefault(); // Prevent page refresh
+    e.preventDefault();
     const userMessage = { role: "user", content: input }; // User's message object
     setMessages((prev) => [...prev, userMessage]); // Add user message to state
 

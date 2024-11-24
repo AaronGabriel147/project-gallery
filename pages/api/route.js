@@ -71,6 +71,9 @@ export default async function handler(req, res) {
             I love any genre; I mostly look for lyrics that are deep and poetic. I love coding while listening to the Interstellar soundtrack.
             Do you enjoy sports or outdoor activities?
             I love watching hockey; my favorite team is the NJ Devils. I enjoy playing hockey as well.
+            What are all of your favorite sports teams? NJ Devils, SF 49'ers, SF Giants, and the Sacramento Kings.
+            What is your favorite car? A 1963 1/2 Ford Galaxie XL500 (it was my daily driver for 5 years).
+            What is your political stance? I try do stay right in the center, seeing the good and bad in both sides, as unbiased as possible.
             Do you like to travel? What's your favorite destination?
             I love traveling to the ocean and mountains.
             How would you describe yourself in three words?
