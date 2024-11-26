@@ -1,32 +1,16 @@
 import Image from 'next/future/image';
-import shopifyhome from '../public/shopifyhome.png';
-import figmaStoics from '../public/figmaStoics.jpg';
 import reactCHALLENGES from '../public/reactCHALLENGES.jpg';
-import arete from '../public/arete.jpg';
-import FYCtable from '../public/FYCtable.jpg';
-import apiWITHdelete from '../public/apiWITHdelete.jpg';
-import rSPACE from '../public/rSPACE.jpg';
-import rickNmorty from '../public/rickNmorty.jpg';
-import oldPORTFOLIO from '../public/oldPORTFOLIO.jpg';
-import shopifyCLONE from '../public/shopifyCLONE.jpg';
 import banner from '../public/banner.jpg';
 import lurker2 from '../public/lurker2.jpg';
 import thestoics from '../public/thestoics.jpg';
 import plants from '../public/plants.jpg';
 import todoFULL from '../public/todoFULL.jpg';
-import portfolio from '../public/portfolio.jpg';
-
 import redditArt from '../public/redditArt.png';
 import lectric from '../public/lectric.png';
 import imgGal from '../public/imgGal.jpg';
-
 import petmakerDesktopSS from '../public/petmakerDesktopSS.png';
 import slice from '../public/slice.png';
 import gnp from '../public/gnp.png';
-
-
-
-
 
 
 // Add source key value pair:
@@ -189,8 +173,8 @@ export default function ImageCards() {
                     />
                     <p className="card-description-text">{card.title}</p>
                     <div className="link-cont">
-                        {card.url && <a class="link card-btn" href={card.url} target="blank">url</a>}
-                        {card.code && <a class="link card-btn" href={card.code} target="blank">code</a>}
+                        {card.url && <a className="link card-btn" href={card.url} target="blank">url</a>}
+                        {card.code && <a className="link card-btn" href={card.code} target="blank">code</a>}
                     </div>
 
                 </div>

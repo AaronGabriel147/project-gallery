@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
-
-/* animated bg */
-/* https://codepen.io/AaronGabriel/pen/yLKwjEd */
-
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,100;1,200;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cherish&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cherish&display=swap'); */
 
 
-/* 
-  font-family: "Cherish", cursive;
-  font-weight: 400;
-  font-style: normal; */
+@font-face {
+  font-family: 'Cherish';
+  src: url('/fonts/Cherish-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 
-/* LOGO color: #43cbe8 */
+
+
+
 :root {
   --BG-1: #565249;
   --BG-2: #00a0ae;

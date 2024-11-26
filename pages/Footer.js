@@ -39,17 +39,17 @@ export default function Footer() {
                 <div className="bg-primary item-22"></div>
                 <div className="bg-primary item-23"></div>
 
-                <div class="footer-container">
+                <div className="footer-container">
 
-                    <ul class="footer-link-container link">
+                    <ul className="footer-link-container link">
 
                         {/* <Link href="/about">
-                            <li class="footer-link">About</li>
+                            <li className="footer-link">About</li>
                         </Link>
                         <Link href="/">
-                            <li class="footer-link">Projects</li>
+                            <li className="footer-link">Projects</li>
                         </Link>
-                        <a class="link footer-link" id="contact-me" href="mailto:aarongabriel147@gmail.com">Contact</a>
+                        <a className="link footer-link" id="contact-me" href="mailto:aarongabriel147@gmail.com">Contact</a>
                     
                      */}
 
@@ -83,7 +83,7 @@ export default function Footer() {
                     </ul>
 
                     <Link href="/">
-                        <div class="footer-logo-container">
+                        <div className="footer-logo-container">
                             <Image
                                 src={phoenixLogo}
                                 alt='project'
@@ -93,14 +93,14 @@ export default function Footer() {
                                 priority
                                 width={200}
                             />
-                            <h2 class="my-name-footer">Aaron Gabriel</h2>
-                            <p class="my-name-footer-sub-txt">Full Stack Web Developer</p>
+                            <h2 className="my-name-footer">Aaron Gabriel</h2>
+                            <p className="my-name-footer-sub-txt">Full Stack Web Developer</p>
                         </div>
                     </Link>
 
                 </div >
 
-                <p class="footer-txt">@2024 Created by Aaron Gabriel</p>
+                <p className="footer-txt">@2024 Created by Aaron Gabriel</p>
 
 
                 </div>
