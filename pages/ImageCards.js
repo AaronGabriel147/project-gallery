@@ -27,26 +27,18 @@ const imageCards = [
         url: 'https://firebase-storage-three.vercel.app/',
         code: 'https://github.com/AaronGabriel147/firebase-storage'
     },
-
-
     {
         title: 'I collaborated with a team at PetMaker in 2023 to build their first website, developing custom Shopify sections to align with the Figma design presentation.',
         image: petmakerDesktopSS,
         url: 'https://www.petmakerbrand.com/',
         code: ''
     },
-
-
     {
         title: 'A full stack React, Node, Express, PostGreSQL web app, which allows users to securely log in with a hashed password and a JSON Web Token. Users are then able to access authenticated routes',
         image: plants,
         url: '',
         code: 'https://github.com/water-my-plantz',
     },
-
-
-
-
     {
         title: 'I developed custom Shopify sections and JavaScript logic for Slice in 2022, enhancing shopping cart functionality and driving increased sales through promo banners and checkout upsells.',
         image: slice,
@@ -89,15 +81,14 @@ const imageCards = [
         url: 'https://codepen.io/AaronGabriel/full/ZExdjNJ',
         code: 'https://codepen.io/AaronGabriel/pen/ZExdjNJ'
     },
-    {
-        title: 'Graphic art with Figma, a banner that I created for LinkedIn.',
-        image: banner,
-        url: 'https://www.figma.com/file/LFB2DAGxtT3v2KJSvqXsDx/Untitled',
-        code: ''
-    },
 ];
 
-
+// {
+//     title: 'Graphic art with Figma, a banner that I created for LinkedIn.',
+//     image: banner,
+//     url: 'https://www.figma.com/file/LFB2DAGxtT3v2KJSvqXsDx/Untitled',
+//     code: ''
+// },
 
 // {
 //     title: 'Animated background and gradient text with CSS.',
