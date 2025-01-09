@@ -7,6 +7,7 @@ import { useRouter } from 'next/router'; // @@@@@@@@@@ Import useRouter hook
 
 export default function Footer() {
 
+    const currentYear = new Date().getFullYear();
     const router = useRouter(); // @@@@@@@@@@ Get the router instance to determine current route
 
     return (
@@ -100,7 +101,7 @@ export default function Footer() {
 
                 </div >
 
-                <p className="footer-txt">@2024 Created by Aaron Gabriel</p>
+                <p className="footer-txt">&copy; {currentYear} Created by Aaron Gabriel</p>
 
 
                 </div>
